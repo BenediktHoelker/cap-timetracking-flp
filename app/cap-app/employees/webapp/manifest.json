@@ -1,0 +1,188 @@
+{
+    "_version": "1.8.0",
+    "sap.app": {
+        "id": "employees",
+        "type": "application",
+        "title": "Mitarbeiter bearbeiten",
+        "description": "Mitarbeiter ansehen und bearbeiten",
+        "i18n": "i18n/i18n.properties",
+        "dataSources": {
+            "EmployeesService": {
+                "uri": "/employees/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "4.0"
+                }
+            }
+        },
+        "-sourceTemplate": {
+            "id": "ui5template.basicSAPUI5ApplicationProject",
+            "-id": "ui5template.smartTemplate",
+            "-version": "1.40.12"
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "libs": {
+                "sap.fe": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "dataSource": "EmployeesService",
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true,
+                    "groupProperties": {
+                        "default": {
+                            "submit": "API"
+                        }
+                    }
+                }
+            }
+        },
+        "routing": {
+            "routes": [
+                {
+                    "pattern": ":?query:",
+                    "name": "EmployeesList",
+                    "target": "EmployeesList"
+                },
+                {
+                    "pattern": "Employees({key}):?query:",
+                    "name": "EmployeesDetails",
+                    "target": "EmployeesDetails"
+                },
+                {
+                    "pattern": "Employees({key})/projects({key2}):?query:",
+                    "name": "ProjectsDetails",
+                    "target": "ProjectsDetails"
+                },
+                {
+                    "pattern": "Employees({key})/records({key2}):?query:",
+                    "name": "RecordsDetails",
+                    "target": "RecordsDetails"
+                },
+                {
+                    "pattern": "Employees({key})/travels({key2}):?query:",
+                    "name": "TravelDetails",
+                    "target": "TravelDetails"
+                },
+                {
+                    "pattern": "Employees({key})/leaves({key2}):?query:",
+                    "name": "LeaveDetails",
+                    "target": "LeaveDetails"
+                }
+            ],
+            "targets": {
+                "EmployeesList": {
+                    "type": "Component",
+                    "id": "EmployeesList",
+                    "name": "sap.fe.templates.ListReport",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Employees",
+                            "navigation": {
+                                "Employees": {
+                                    "detail": {
+                                        "route": "EmployeesDetails"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "EmployeesDetails": {
+                    "type": "Component",
+                    "id": "EmployeesDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Employees",
+                            "navigation": {
+                                "projects": {
+                                    "detail": {
+                                        "route": "ProjectsDetails"
+                                    }
+                                },
+                                "records": {
+                                    "detail": {
+                                        "route": "RecordsDetails"
+                                    }
+                                },
+                                "travels": {
+                                    "detail": {
+                                        "route": "TravelDetails"
+                                    }
+                                },
+                                "leaves": {
+                                    "detail": {
+                                        "route": "LeaveDetails"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ProjectsDetails": {
+                    "type": "Component",
+                    "id": "ProjectsDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "ProjectMembers"
+                        }
+                    }
+                },
+                "RecordsDetails": {
+                    "type": "Component",
+                    "id": "RecordsDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Records"
+                        }
+                    }
+                },
+                "TravelDetails": {
+                    "type": "Component",
+                    "id": "TravelDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Travels"
+                        }
+                    }
+                },
+                "LeaveDetails": {
+                    "type": "Component",
+                    "id": "LeaveDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Leaves"
+                        }
+                    }
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "fullWidth": false
+    },
+    "sap.fiori": {
+        "registrationIds": [],
+        "archeType": "transactional"
+    }
+}

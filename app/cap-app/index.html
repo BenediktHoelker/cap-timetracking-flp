@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeiterfassung</title>
+
+    <script>
+      window["sap-ushell-config"] = {
+        defaultRenderer: "fiori2",
+        applications: {
+          "manage-records": {
+            title: "Aufwände",
+            description: "Ansehen und Bearbeten",
+            additionalInformation: "SAPUI5.Component=records",
+            applicationType: "URL",
+            url: "records/webapp",
+            navigationMode: "embedded"
+          },
+          "manage-projects": {
+            title: "Projekte",
+            description: "Bearbeiten",
+            additionalInformation: "SAPUI5.Component=projects",
+            applicationType: "URL",
+            url: "projects/webapp",
+            navigationMode: "embedded"
+          },
+          "manage-employees": {
+            title: "Mitarbeiter",
+            description: "Bearbeiten",
+            additionalInformation: "SAPUI5.Component=employees",
+            applicationType: "URL",
+            url: "employees/webapp",
+            navigationMode: "embedded"
+          },
+          "manage-customers": {
+            title: "Kunden",
+            description: "Bearbeiten",
+            additionalInformation: "SAPUI5.Component=customers",
+            applicationType: "URL",
+            url: "customers/webapp",
+            navigationMode: "embedded"
+          },
+          "manage-invoices": {
+            title: "Rechnungen",
+            description: "Bearbeiten",
+            additionalInformation: "SAPUI5.Component=invoices",
+            applicationType: "URL",
+            url: "invoices/webapp",
+            navigationMode: "embedded"
+          }
+        }
+      };
+    </script>
+
+    <script src="https://sapui5.hana.ondemand.com/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+    <script
+      src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+      data-sap-ui-libs="sap.m, sap.ushell, sap.collaboration, sap.ui.layout"
+      data-sap-ui-compatVersion="edge"
+      data-sap-ui-theme="sap_fiori_3"
+      data-sap-ui-frameOptions="allow"
+    ></script>
+    <script>
+      sap.ui
+        .getCore()
+        .attachInit(() =>
+          sap.ushell.Container.createRenderer().placeAt("content")
+        );
+    </script>
+  </head>
+  <body class="sapUiBody" id="content"></body>
+</html>

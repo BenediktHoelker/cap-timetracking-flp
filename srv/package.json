@@ -1,0 +1,23 @@
+{
+    "name": "timetracking-srv",
+    "version": "1.0.0",
+    "dependencies": {
+        "@sap/cds": "^3.33.1",
+        "express": "^4.17.1",
+        "@sap/hana-client": "^2.4.191"
+    },
+    "engines": {
+        "node": "^10"
+    },
+    "scripts": {
+        "start": "cds serve gen/csn.json"
+    },
+    "cds": {
+        "requires": {
+            "db": {
+                "kind": "hana",
+                "model": "gen/csn.json"
+            }
+        }
+    }
+}

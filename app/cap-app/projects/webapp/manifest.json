@@ -1,0 +1,162 @@
+{
+    "_version": "1.8.0",
+    "sap.app": {
+        "id": "projects",
+        "type": "application",
+        "title": "Projekte bearbeiten",
+        "description": "Management von Projekten",
+        "i18n": "i18n/i18n.properties",
+        "dataSources": {
+            "AdminService": {
+                "uri": "/projects/",
+                "type": "OData",
+                "settings": {
+                    "odataVersion": "4.0"
+                }
+            }
+        },
+        "-sourceTemplate": {
+            "id": "ui5template.basicSAPUI5ApplicationProject",
+            "-id": "ui5template.smartTemplate",
+            "-version": "1.40.12"
+        }
+    },
+    "sap.ui5": {
+        "dependencies": {
+            "libs": {
+                "sap.fe": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "uri": "i18n/i18n.properties"
+            },
+            "": {
+                "dataSource": "AdminService",
+                "settings": {
+                    "synchronizationMode": "None",
+                    "operationMode": "Server",
+                    "autoExpandSelect": true,
+                    "earlyRequests": true,
+                    "groupProperties": {
+                        "default": {
+                            "submit": "Auto"
+                        }
+                    }
+                }
+            }
+        },
+        "routing": {
+            "routes": [
+                {
+                    "pattern": ":?query:",
+                    "name": "ProjectsList",
+                    "target": "ProjectsList"
+                },
+                {
+                    "pattern": "Projects({key}):?query:",
+                    "name": "ProjectDetails",
+                    "target": "ProjectDetails"
+                },
+                {
+                    "pattern": "Projects({key})/records({key2}):?query:",
+                    "name": "RecordDetails",
+                    "target": "RecordDetails"
+                },
+                {
+                    "pattern": "Projects({key})/members({key2}):?query:",
+                    "name": "MemberDetails",
+                    "target": "MemberDetails"
+                }
+            ],
+            "targets": {
+                "ProjectsList": {
+                    "type": "Component",
+                    "id": "ProjectsList",
+                    "name": "sap.fe.templates.ListReport",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Projects",
+                            "navigation": {
+                                "Projects": {
+                                    "detail": {
+                                        "route": "ProjectDetails"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ProjectDetails": {
+                    "type": "Component",
+                    "id": "ProjectDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Projects",
+                            "navigation": {
+                                "records": {
+                                    "detail": {
+                                        "route": "RecordDetails"
+                                    }
+                                },
+                                "members": {
+                                    "detail": {
+                                        "route": "MemberDetails"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "RecordDetails": {
+                    "type": "Component",
+                    "id": "RecordDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "Records",
+                            "navigation": {
+                                "records": {
+                                    "detail": {
+                                        "route": "RecordDetails"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "MemberDetails": {
+                    "type": "Component",
+                    "id": "MemberDetails",
+                    "name": "sap.fe.templates.ObjectPage",
+                    "options": {
+                        "settings": {
+                            "entitySet": "ProjectMembers",
+                            "navigation": {
+                                "ProjectMembers": {
+                                    "detail": {
+                                        "route": "MemberDetails"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        }
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "fullWidth": false
+    },
+    "sap.fiori": {
+        "registrationIds": [],
+        "archeType": "transactional"
+    }
+}

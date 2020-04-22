@@ -1,0 +1,7 @@
+---
+applications:
+- name: timetracking-ui
+  path: .
+  memory: 256M
+  services:
+  - timetracking-db-hdi-container
