@@ -1,0 +1,63 @@
+ID: cap-timetracking
+_schema-version: 3.2.0
+description: Enter description here
+version: 0.0.1
+parameters:
+  enable-parallel-deployments: true
+modules:
+  - name: cap-timetracking
+    type: nodejs
+    path: approuter
+    parameters:
+      disk-quota: 512M
+      memory: 512M
+    requires:
+      - name: cap-timetracking_destination
+      - name: cap-timetracking_uaa
+      - name: cap-timetracking_html5_repo_runtime
+      - name: cap-timetracking_portal
+  - name: cap-timetracking_deployer
+    type: com.sap.html5.application-content
+    path: deployer
+    requires:
+      - name: cap-timetracking_html5_repo_host
+    build-parameters:
+      builder: custom
+      commands:
+        - npm run build:ui --prefix ..
+  - name: cap-timetracking_launchpad_deployer
+    type: com.sap.portal.content
+    path: launchpad
+    requires:
+      - name: cap-timetracking_portal
+      - name: cap-timetracking_html5_repo_host
+      - name: cap-timetracking_uaa
+resources:
+  - name: cap-timetracking_destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service-plan: lite
+      service: destination
+  - name: cap-timetracking_uaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service: xsuaa
+  - name: cap-timetracking_html5_repo_runtime
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service-plan: app-runtime
+      service: html5-apps-repo
+  - name: cap-timetracking_html5_repo_host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service-plan: app-host
+      service: html5-apps-repo
+      config:
+        sizeLimit: 5
+  - name: cap-timetracking_portal
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service-plan: standard
+      service: portal
