@@ -87,7 +87,7 @@ resources:
     type: org.cloudfoundry.managed-service
     parameters:
       service-plan: standard
-      service: portal      
+      service: portal
   - name: timetracking-db-hdi-container
     type: com.sap.xs.hdi-container
     properties:
