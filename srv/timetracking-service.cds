@@ -87,6 +87,7 @@ service TimetrackingService {
             Employees.modifiedBy,
             Employees.name,
             Employees.username,
+            Employees.manager,
             Employees.daysOfLeave,
             Employees.daysOfTravel;
 

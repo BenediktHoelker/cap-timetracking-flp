@@ -1,6 +1,5 @@
 {
-    "welcomeFile": "/app/index.html",
-    "authenticationMethod": "route",
+    "welcomeFile": "/cp.portal",
     "routes": [
         {
             "source": "^/app/(.*)$",

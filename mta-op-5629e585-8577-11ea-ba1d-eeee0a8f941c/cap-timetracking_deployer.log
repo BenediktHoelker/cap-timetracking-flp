@@ -1,0 +1,1304 @@
+#2.0#2020 04 23 15:31:49.334#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:11:44 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.334#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:11:46 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.334#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:11:48 UTC 2020] Uploading app package for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.334#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:02 UTC 2020] Creating build for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading security_group_check_stg_buildpack_740AEF... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded sap_java_buildpack_1_24 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded security_group_check_stg_buildpack_740AEF (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.335#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded sap_java_buildpack_1_25 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded sap_java_buildpack_1_23 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.336#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded uas_dataflow_server_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Cell e24ea4dd-e98c-4b42-ad62-087f51b1a423 creating container for instance 5d7b0e5f-3d6a-4db4-825b-de134c0f6995 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:04 UTC 2020] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:05 UTC 2020] Cell e24ea4dd-e98c-4b42-ad62-087f51b1a423 successfully created container for instance 5d7b0e5f-3d6a-4db4-825b-de134c0f6995 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:05 UTC 2020] Downloading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:05 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:05 UTC 2020] Downloaded app package (21.4K) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:05 UTC 2020] Downloaded build artifacts cache (2.5M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:06 UTC 2020] -----> Nodejs Buildpack version 1.7.13 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.337#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:06 UTC 2020]        Copy [/tmp/buildpacks/aa83ffe5f569b4ce7edc11720b781272/dependencies/8eafd026d2296d9717517f96b62e7e0d/node-12.16.1-linux-x64-cflinuxfs3-7bb532cc.tgz] (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:06 UTC 2020] -----> Installing node 12.16.1 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:06 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:06 UTC 2020]        engines.node (package.json): 12.x.x (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:06 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:07 UTC 2020]        Copy [/tmp/buildpacks/aa83ffe5f569b4ce7edc11720b781272/dependencies/25fe96da69b98a7a2020fef9398a6fae/yarn-1.22.0-any-stack-a6e7a8ac.tgz] (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:07 UTC 2020] -----> Installing yarn 1.22.0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:07 UTC 2020]        Using default npm version: 6.13.4 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020] -----> Creating runtime environment (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        Installed yarn 1.22.0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        Installing node modules (package.json) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.338#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        NODE_HOME=/tmp/contents302785715/deps/0/node (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:08 UTC 2020]        [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:11 UTC 2020] added 94 packages from 86 contributors and audited 242 packages in 2.853s (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:11 UTC 2020]   run `npm fund` for details (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:11 UTC 2020] 1 package is looking for funding (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:11 UTC 2020] found 0 vulnerabilities (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:12 UTC 2020]        See: https://github.com/npm/npm/issues/7494 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:12 UTC 2020]        [31;1m**WARNING**[0m Unmet dependencies don't fail npm install but may cause runtime issues (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:12 UTC 2020]        Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.339#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:17 UTC 2020] Uploading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:17 UTC 2020] Uploading droplet... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:17 UTC 2020] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:17 UTC 2020] Exit status 0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:17 UTC 2020] Uploaded build artifacts cache (2.6M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:17 UTC 2020] Creating droplet for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:21 UTC 2020] Uploaded droplet (26M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:21 UTC 2020] Uploading complete (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:24 UTC 2020] Cell e24ea4dd-e98c-4b42-ad62-087f51b1a423 destroying container for instance 5d7b0e5f-3d6a-4db4-825b-de134c0f6995 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:24 UTC 2020] Cell e24ea4dd-e98c-4b42-ad62-087f51b1a423 stopping instance 5d7b0e5f-3d6a-4db4-825b-de134c0f6995 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:25 UTC 2020] Cell e24ea4dd-e98c-4b42-ad62-087f51b1a423 successfully destroyed container for instance 5d7b0e5f-3d6a-4db4-825b-de134c0f6995 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:34 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({:droplet_guid=>"60f15d3d-62fa-4847-bb84-a48ac762ec97"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:44 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STARTED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:44 UTC 2020] Cell 0b6b3ecc-765d-4c8d-8230-f3e6a91efe9e creating container for instance 0f80bd37-d391-48cd-46b9-3734 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.340#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:46 UTC 2020] Cell 0b6b3ecc-765d-4c8d-8230-f3e6a91efe9e successfully created container for instance 0f80bd37-d391-48cd-46b9-3734 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:47 UTC 2020] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:49 UTC 2020] Downloaded droplet (26M) (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:53 UTC 2020] > webapp-deployer@ start /home/vcap/app (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:53 UTC 2020] > node node_modules/@sap/html5-app-deployer/index.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:56 UTC 2020] #2020-04-23T15:12:56.311Z# - #error# Application Deployer failed (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:56 UTC 2020] #2020-04-23T15:12:56.311Z# - #error# Error while uploading resources to Server; Status: 400 Response: "Upload application content failed { CODE: '1001' } validation error: Missing applicationVersion.version in manifest.json" (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:56 UTC 2020] Deployment of html5 application content failed [Deployment Id: deploy-9d67b03f-8574-11ea-97b0-eeee0a96a0da] Error: Error while uploading resources to Server; Status: 400 Response: "Upload application content failed { CODE: '1001' } validation error: Missing applicationVersion.version in manifest.json" (STDERR, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:12:56 UTC 2020] #2020-04-23T15:12:56.311Z# - #error# Deployment of html5 application content failed [Deployment Id: deploy-9d67b03f-8574-11ea-97b0-eeee0a96a0da] (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:18 UTC 2020] Cell 0b6b3ecc-765d-4c8d-8230-f3e6a91efe9e stopping instance 0f80bd37-d391-48cd-46b9-3734 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:18 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STOPPED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:29 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STARTED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:29 UTC 2020] Cell 0b6b3ecc-765d-4c8d-8230-f3e6a91efe9e destroying container for instance 0f80bd37-d391-48cd-46b9-3734 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:29 UTC 2020] Cell 10328017-2cfc-44bf-9412-23e799151359 creating container for instance d918fbd9-c883-4ab9-6bc8-5300 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.341#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:31 UTC 2020] Cell 10328017-2cfc-44bf-9412-23e799151359 successfully created container for instance d918fbd9-c883-4ab9-6bc8-5300 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:31 UTC 2020] Cell 0b6b3ecc-765d-4c8d-8230-f3e6a91efe9e successfully destroyed container for instance 0f80bd37-d391-48cd-46b9-3734 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:31 UTC 2020] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:32 UTC 2020] Downloaded droplet (26M) (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:35 UTC 2020] > node node_modules/@sap/html5-app-deployer/index.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:35 UTC 2020] > webapp-deployer@ start /home/vcap/app (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:38 UTC 2020] Deployment of html5 application content failed [Deployment Id: deploy-9d67b03f-8574-11ea-97b0-eeee0a96a0da] Error: Error while uploading resources to Server; Status: 400 Response: "Upload application content failed { CODE: '1001' } validation error: Missing applicationVersion.version in manifest.json" (STDERR, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:38 UTC 2020] #2020-04-23T15:13:38.383Z# - #error# Deployment of html5 application content failed [Deployment Id: deploy-9d67b03f-8574-11ea-97b0-eeee0a96a0da] (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:38 UTC 2020] #2020-04-23T15:13:38.383Z# - #error# Application Deployer failed (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:13:38 UTC 2020] #2020-04-23T15:13:38.382Z# - #error# Error while uploading resources to Server; Status: 400 Response: "Upload application content failed { CODE: '1001' } validation error: Missing applicationVersion.version in manifest.json" (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:07 UTC 2020] Cell 10328017-2cfc-44bf-9412-23e799151359 stopping instance d918fbd9-c883-4ab9-6bc8-5300 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:07 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STOPPED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:22 UTC 2020] Cell 10328017-2cfc-44bf-9412-23e799151359 destroying container for instance d918fbd9-c883-4ab9-6bc8-5300 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.342#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:23 UTC 2020] Cell 10328017-2cfc-44bf-9412-23e799151359 successfully destroyed container for instance d918fbd9-c883-4ab9-6bc8-5300 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:35 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STARTED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:44 UTC 2020] Cell 1dcd7223-a47a-4248-a8c8-c2b496214fa6 creating container for instance e4d04daa-2b58-493b-59f4-6a87 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:46 UTC 2020] Cell 1dcd7223-a47a-4248-a8c8-c2b496214fa6 successfully created container for instance e4d04daa-2b58-493b-59f4-6a87 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:46 UTC 2020] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:48 UTC 2020] Downloaded droplet (26M) (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:51 UTC 2020] > node node_modules/@sap/html5-app-deployer/index.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:51 UTC 2020] > webapp-deployer@ start /home/vcap/app (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:53 UTC 2020] Deployment of html5 application content failed [Deployment Id: deploy-9d67b03f-8574-11ea-97b0-eeee0a96a0da] Error: Error while uploading resources to Server; Status: 400 Response: "Upload application content failed { CODE: '1001' } validation error: Missing applicationVersion.version in manifest.json" (STDERR, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:53 UTC 2020] #2020-04-23T15:14:53.951Z# - #error# Deployment of html5 application content failed [Deployment Id: deploy-9d67b03f-8574-11ea-97b0-eeee0a96a0da] (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:53 UTC 2020] #2020-04-23T15:14:53.951Z# - #error# Application Deployer failed (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:14:53 UTC 2020] #2020-04-23T15:14:53.950Z# - #error# Error while uploading resources to Server; Status: 400 Response: "Upload application content failed { CODE: '1001' } validation error: Missing applicationVersion.version in manifest.json" (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:15:05 UTC 2020] Cell 1dcd7223-a47a-4248-a8c8-c2b496214fa6 stopping instance e4d04daa-2b58-493b-59f4-6a87 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.343#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:15:05 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STOPPED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:15:16 UTC 2020] Cell 1dcd7223-a47a-4248-a8c8-c2b496214fa6 destroying container for instance e4d04daa-2b58-493b-59f4-6a87 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:15:17 UTC 2020] Cell 1dcd7223-a47a-4248-a8c8-c2b496214fa6 successfully destroyed container for instance e4d04daa-2b58-493b-59f4-6a87 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:28 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:35 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:40 UTC 2020] Uploading app package for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:57 UTC 2020] Creating build for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading security_group_check_stg_buildpack_740AEF... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.344#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded security_group_check_stg_buildpack_740AEF (3.5K) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded sap_java_buildpack_1_23 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded sap_java_buildpack_1_25 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded sap_java_buildpack_1_24 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.345#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded uas_dataflow_server_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Cell 53d3de46-b10a-4106-bc1d-9082e06fa92b creating container for instance 2095ff53-ce26-4093-879d-3938660a5dd7 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Cell 53d3de46-b10a-4106-bc1d-9082e06fa92b successfully created container for instance 2095ff53-ce26-4093-879d-3938660a5dd7 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:18:59 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:00 UTC 2020] Downloaded app package (21.7K) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:00 UTC 2020] Downloaded build artifacts cache (2.6M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.346#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:01 UTC 2020] -----> Nodejs Buildpack version 1.7.13 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:01 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:01 UTC 2020]        Copy [/tmp/buildpacks/aa83ffe5f569b4ce7edc11720b781272/dependencies/8eafd026d2296d9717517f96b62e7e0d/node-12.16.1-linux-x64-cflinuxfs3-7bb532cc.tgz] (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:01 UTC 2020] -----> Installing node 12.16.1 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:01 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:01 UTC 2020]        engines.node (package.json): 12.x.x (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020] -----> Installing yarn 1.22.0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        Using default npm version: 6.13.4 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        Copy [/tmp/buildpacks/aa83ffe5f569b4ce7edc11720b781272/dependencies/25fe96da69b98a7a2020fef9398a6fae/yarn-1.22.0-any-stack-a6e7a8ac.tgz] (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020] -----> Creating runtime environment (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        Installed yarn 1.22.0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        Installing node modules (package.json) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.347#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        NODE_HOME=/tmp/contents114580131/deps/0/node (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:02 UTC 2020]        [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020] added 94 packages from 86 contributors and audited 242 packages in 2.702s (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020]   run `npm fund` for details (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020] 1 package is looking for funding (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020] found 0 vulnerabilities (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020]        See: https://github.com/npm/npm/issues/7494 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020]        [31;1m**WARNING**[0m Unmet dependencies don't fail npm install but may cause runtime issues (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:06 UTC 2020]        Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:11 UTC 2020] Uploading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:11 UTC 2020] Uploading droplet... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.348#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:11 UTC 2020] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:11 UTC 2020] Exit status 0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:11 UTC 2020] Uploaded build artifacts cache (2.6M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:11 UTC 2020] Creating droplet for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:15 UTC 2020] Uploaded droplet (26M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:15 UTC 2020] Uploading complete (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:20 UTC 2020] Cell 53d3de46-b10a-4106-bc1d-9082e06fa92b destroying container for instance 2095ff53-ce26-4093-879d-3938660a5dd7 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:20 UTC 2020] Cell 53d3de46-b10a-4106-bc1d-9082e06fa92b stopping instance 2095ff53-ce26-4093-879d-3938660a5dd7 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:20 UTC 2020] Cell 53d3de46-b10a-4106-bc1d-9082e06fa92b successfully destroyed container for instance 2095ff53-ce26-4093-879d-3938660a5dd7 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:19:35 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({:droplet_guid=>"efc1a1d6-9836-4952-9946-d071360ce307"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:02 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STARTED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:35 UTC 2020] Cell 4b4b86c3-19fc-461a-8a90-29a9f53f20bb creating container for instance 1128d54b-15a8-4a09-44d0-1f24 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:36 UTC 2020] Cell 4b4b86c3-19fc-461a-8a90-29a9f53f20bb successfully created container for instance 1128d54b-15a8-4a09-44d0-1f24 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:36 UTC 2020] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:38 UTC 2020] Downloaded droplet (26M) (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.349#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:40 UTC 2020] > node node_modules/@sap/html5-app-deployer/index.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:40 UTC 2020] > webapp-deployer@ start /home/vcap/app (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:20:47 UTC 2020] Deployment of html5 application content done [Deployment Id: deploy-8dac2b9d-8575-11ea-bd34-eeee0a85402c] (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:21:29 UTC 2020] Cell 4b4b86c3-19fc-461a-8a90-29a9f53f20bb stopping instance 1128d54b-15a8-4a09-44d0-1f24 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:21:29 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STOPPED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:21:40 UTC 2020] Cell 4b4b86c3-19fc-461a-8a90-29a9f53f20bb destroying container for instance 1128d54b-15a8-4a09-44d0-1f24 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:21:41 UTC 2020] Cell 4b4b86c3-19fc-461a-8a90-29a9f53f20bb successfully destroyed container for instance 1128d54b-15a8-4a09-44d0-1f24 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:20 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:24 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"environment_json"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:27 UTC 2020] Uploading app package for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:39 UTC 2020] Creating build for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading r_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading nodejs_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.350#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading security_group_check_stg_buildpack_740AEF... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading ruby_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading sap_java_buildpack_1_24... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded ruby_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading sap_java_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded java_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading sap_java_buildpack_1_25... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded nodejs_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading staticfile_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded security_group_check_stg_buildpack_740AEF (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading dotnet_core_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded sap_java_buildpack_1_24 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading uas_dataflow_server_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded sap_java_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.351#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading go_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded sap_java_buildpack_1_25 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading php_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded staticfile_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading sap_java_buildpack_1_23... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded r_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading python_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded dotnet_core_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading binary_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded go_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloading nginx_buildpack... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded uas_dataflow_server_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded php_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded sap_java_buildpack_1_23 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.352#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded python_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded nginx_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Cell 66125168-1457-4f69-9426-4e567f5e86a1 creating container for instance 680255a7-78a8-42f5-b93e-f01a3a8f4117 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:43 UTC 2020] Downloaded binary_buildpack (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:44 UTC 2020] Cell 66125168-1457-4f69-9426-4e567f5e86a1 successfully created container for instance 680255a7-78a8-42f5-b93e-f01a3a8f4117 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:44 UTC 2020] Downloading app package... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:44 UTC 2020] Downloading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:44 UTC 2020] Downloaded app package (21.7K) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020] Downloaded build artifacts cache (2.6M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020] -----> Nodejs Buildpack version 1.7.13 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020]        Copy [/tmp/buildpacks/aa83ffe5f569b4ce7edc11720b781272/dependencies/8eafd026d2296d9717517f96b62e7e0d/node-12.16.1-linux-x64-cflinuxfs3-7bb532cc.tgz] (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020] -----> Installing node 12.16.1 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020]        engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020]        engines.node (package.json): 12.x.x (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.353#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:45 UTC 2020] -----> Installing binaries (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Copy [/tmp/buildpacks/aa83ffe5f569b4ce7edc11720b781272/dependencies/25fe96da69b98a7a2020fef9398a6fae/yarn-1.22.0-any-stack-a6e7a8ac.tgz] (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020] -----> Installing yarn 1.22.0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Using default npm version: 6.13.4 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020] -----> Creating runtime environment (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Installed yarn 1.22.0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Installing node modules (package.json) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_HOME=/tmp/contents492928465/deps/0/node (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.354#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:49.355#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-40###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.230#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Installing node modules (package.json) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.230#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020] -----> Building dependencies (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.230#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.230#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.230#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_VERBOSE=false (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.230#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_MODULES_CACHE=true (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_HOME=/tmp/contents492928465/deps/0/node (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        NODE_ENV=production (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:47 UTC 2020]        Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:50 UTC 2020] added 94 packages from 86 contributors and audited 242 packages in 2.545s (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:50 UTC 2020]   run `npm fund` for details (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:50 UTC 2020] 1 package is looking for funding (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:50 UTC 2020] found 0 vulnerabilities (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:51 UTC 2020]        See: https://github.com/npm/npm/issues/7494 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:51 UTC 2020]        [31;1m**WARNING**[0m Unmet dependencies don't fail npm install but may cause runtime issues (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:51 UTC 2020]        Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:56 UTC 2020] Uploading droplet... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:56 UTC 2020] Uploading build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:56 UTC 2020] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:56 UTC 2020] Exit status 0 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:56 UTC 2020] Uploaded build artifacts cache (2.6M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:31:59.231#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-9###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:31:56 UTC 2020] Creating droplet for app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f (STDOUT, API)#
+
+#2.0#2020 04 23 15:32:09.304#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-30###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:01 UTC 2020] Uploaded droplet (26M) (STDOUT, STG)#
+
+#2.0#2020 04 23 15:32:09.304#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-30###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:01 UTC 2020] Uploading complete (STDOUT, STG)#
+
+#2.0#2020 04 23 15:32:09.304#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-30###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:02 UTC 2020] Cell 66125168-1457-4f69-9426-4e567f5e86a1 destroying container for instance 680255a7-78a8-42f5-b93e-f01a3a8f4117 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:32:09.304#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-30###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:02 UTC 2020] Cell 66125168-1457-4f69-9426-4e567f5e86a1 stopping instance 680255a7-78a8-42f5-b93e-f01a3a8f4117 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:32:09.304#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.stageAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-30###
+[PollStageAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:03 UTC 2020] Cell 66125168-1457-4f69-9426-4e567f5e86a1 successfully destroyed container for instance 680255a7-78a8-42f5-b93e-f01a3a8f4117 (STDOUT, STG)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:10 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({:droplet_guid=>"48227b42-94c6-4b8f-ace9-d6de1f91ca8e"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:14 UTC 2020] Updated app with guid 8c91c7a0-2322-4199-95f5-ae48a82a156f ({"state"=>"STARTED"}) (STDOUT, API)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:14 UTC 2020] Cell 467ec87f-0c5f-4a26-a408-bc89f318e29b creating container for instance c855ae8a-25ca-4aa0-4dea-9998 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:15 UTC 2020] Cell 467ec87f-0c5f-4a26-a408-bc89f318e29b successfully created container for instance c855ae8a-25ca-4aa0-4dea-9998 (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:15 UTC 2020] Downloading droplet... (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:17 UTC 2020] Downloaded droplet (26M) (STDOUT, CELL)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:20 UTC 2020] > node node_modules/@sap/html5-app-deployer/index.js (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:20 UTC 2020] > webapp-deployer@ start /home/vcap/app (STDOUT, APP/PROC/WEB)#
+
+#2.0#2020 04 23 15:32:30.170#Z#DEBUG#com.sap.cloud.lm.sl.xs2.5629e585-8577-11ea-ba1d-eeee0a8f941c.cap-timetracking_deployer.startAppTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8###
+[PollStartAppStatusExecution] [cap-timetracking_deployer] 8c91c7a0-2322-4199-95f5-ae48a82a156f [Thu Apr 23 15:32:25 UTC 2020] Deployment of html5 application content done [Deployment Id: deploy-5629e585-8577-11ea-ba1d-eeee0a8f941c] (STDOUT, APP/PROC/WEB)#
+

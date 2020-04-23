@@ -2,6 +2,9 @@
     "_version": "1.8.0",
     "sap.app": {
         "id": "customers",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
         "type": "application",
         "title": "Kunden bearbeiten",
         "description": "Management von Kunden",
@@ -15,6 +18,21 @@
                 }
             }
         },
+        "crossNavigation": {
+            "inbounds": {
+                "intent1": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "customers",
+                    "action": "display",
+                    "title": "Kunden",
+                    "description": "Anzeigen und Bearbeiten",
+                    "icon": "sap-icon://customers"
+                }
+            }
+        },
         "-sourceTemplate": {
             "id": "ui5template.basicSAPUI5ApplicationProject",
             "-id": "ui5template.smartTemplate",
@@ -23,6 +41,7 @@
     },
     "sap.ui5": {
         "dependencies": {
+            "minUI5Version": "1.60.0",
             "libs": {
                 "sap.fe": {}
             }

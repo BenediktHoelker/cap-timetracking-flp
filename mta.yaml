@@ -7,7 +7,7 @@ parameters:
 modules:
   - name: cap-timetracking
     type: nodejs
-    path: approuter
+    path: app
     parameters:
       disk-quota: 512M
       memory: 512M
@@ -58,6 +58,7 @@ modules:
         properties:
           url: ${default-url}
     requires:
+      - name: cap-timetracking_uaa
       - name: timetracking-db-hdi-container
 resources:
   - name: cap-timetracking_destination
