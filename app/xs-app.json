@@ -1,6 +1,6 @@
 {
     "welcomeFile": "/app/index.html",
-    "authenticationMethod": "none",
+    "authenticationMethod": "route",
     "routes": [
         {
             "source": "^/app/(.*)$",
