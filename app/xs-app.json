@@ -2,12 +2,9 @@
     "welcomeFile": "/cp.portal",
     "routes": [
         {
-            "source": "^/app/(.*)$",
+            "source": "^/customers/(.*)$",
             "target": "$1",
-            "localDir": "cap-app/"
-        },
-        {
-            "source": "^(.*)$",
+            "authenticationType": "xsuaa",
             "destination": "srv_api"
         }
     ]

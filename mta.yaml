@@ -39,14 +39,6 @@ modules:
       - name: cap-timetracking_portal
       - name: cap-timetracking_html5_repo_host
       - name: cap-timetracking_uaa
-  - name: timetracking-db
-    type: hdb
-    path: db
-    parameters:
-      memory: 1024M
-      disk-quota: 1024M
-    requires:
-      - name: timetracking-db-hdi-container
   - name: timetracking-srv
     type: nodejs
     path: srv
@@ -59,6 +51,14 @@ modules:
           url: ${default-url}
     requires:
       - name: cap-timetracking_uaa
+      - name: timetracking-db-hdi-container
+  - name: timetracking-db
+    type: hdb
+    path: db
+    parameters:
+      memory: 1024M
+      disk-quota: 1024M
+    requires:
       - name: timetracking-db-hdi-container
 resources:
   - name: cap-timetracking_destination
