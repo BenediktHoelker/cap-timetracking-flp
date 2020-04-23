@@ -1,8 +1,18 @@
 {
-  "welcomeFile": "/cp.portal",
+  "welcomeFile": "../webapp/flpSandbox.html",
   "authenticationMethod": "route",
   "logout": {
     "logoutEndpoint": "/do/logout"
   },
-  "routes": []
+  "routes": [
+    {
+      "source": "^/ui-customers/(.*)$",
+      "target": "$1",
+      "localDir": "webapp/"
+    },
+    {
+      "source": "^/(.*)",
+      "destination": "srv_api"
+    }
+  ]
 }

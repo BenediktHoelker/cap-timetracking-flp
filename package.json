@@ -23,10 +23,13 @@
     "@openui5/sap.m": "^1.77.0",
     "@openui5/themelib_sap_belize": "^1.77.0",
     "@openui5/themelib_sap_fiori_3": "^1.77.0",
+    "@sap/audit-logging": "^3.1.0",
     "@sap/cds": "^3",
+    "@sap/xssec": "^2.2.5",
     "concurrently": "^5.1.0",
     "express": "^4",
     "hdb": "^0.17.1",
+    "passport": "^0.4.1",
     "shx": "^0.3.2"
   },
   "devDependencies": {
