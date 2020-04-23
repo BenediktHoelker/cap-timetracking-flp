@@ -1,0 +1,11 @@
+{
+  "name": "cap-timetracking-customers",
+  "version": "1.0.0",
+  "description": "CAP Timetracking Customers",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

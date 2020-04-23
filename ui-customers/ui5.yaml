@@ -1,0 +1,8 @@
+specVersion: "2.0"
+metadata:
+  name: cap-timetracking-customers
+type: application
+resources:
+  configuration:
+    paths:
+      webapp: ui-customers/webapp

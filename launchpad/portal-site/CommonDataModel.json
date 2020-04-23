@@ -32,6 +32,11 @@
               "id": "iot.cap-timetracking-0-1576776620655",
               "appId": "iot.cap-timetracking",
               "vizId": "data-display"
+            },
+            {
+              "id": "customers-0-1576776620656",
+              "appId": "customers",
+              "vizId": "customers-display"
             }
           ]
         }
@@ -50,13 +55,13 @@
           "config": {
             "ushellConfig": {
               "bootstrapPlugins": {
-								"KeyUserPlugin": {
-									"component": "sap.ushell.plugins.rta"
-								},
-								"PersonalizePlugin": {
-									"component": "sap.ushell.plugins.rta-personalize"
-								}
-							},
+                "KeyUserPlugin": {
+                  "component": "sap.ushell.plugins.rta"
+                },
+                "PersonalizePlugin": {
+                  "component": "sap.ushell.plugins.rta-personalize"
+                }
+              },
               "renderers": {
                 "fiori2": {
                   "componentData": {

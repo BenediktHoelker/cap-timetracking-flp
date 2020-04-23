@@ -2,6 +2,9 @@
     "_version": "1.8.0",
     "sap.app": {
         "id": "customers",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
         "type": "application",
         "title": "Kunden bearbeiten",
         "description": "Management von Kunden",
@@ -38,6 +41,7 @@
     },
     "sap.ui5": {
         "dependencies": {
+            "minUI5Version": "1.60.0",
             "libs": {
                 "sap.fe": {}
             }

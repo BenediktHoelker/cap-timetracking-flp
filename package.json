@@ -15,12 +15,14 @@
     "lint": "eslint .",
     "build:mta": "cds build/all && mbt build -p=cf",
     "deploy:cf": "npm run build:mta && cross-var cf deploy mta_archives/cap-timetracking_$npm_package_version.mtar",
-    "build:ui": "ui5 build --clean-dest --include-task=generateManifestBundle --dest deployer/resources/webapp"
+    "build:customers": "ui5 build --config ui-customers/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/customers",
+    "build:webapp": "ui5 build --clean-dest --include-task=generateManifestBundle --dest deployer/resources/webapp",
+    "build:ui": "run-p build:customers build:webapp"
   },
   "dependencies": {
-    "@openui5/sap.m": "^1.75.0",
-    "@openui5/themelib_sap_belize": "^1.75.0",
-    "@openui5/themelib_sap_fiori_3": "^1.75.0",
+    "@openui5/sap.m": "^1.77.0",
+    "@openui5/themelib_sap_belize": "^1.77.0",
+    "@openui5/themelib_sap_fiori_3": "^1.77.0",
     "@sap/cds": "^3",
     "concurrently": "^5.1.0",
     "express": "^4",
@@ -28,18 +30,18 @@
     "shx": "^0.3.2"
   },
   "devDependencies": {
-    "sqlite3": "^4.1.1",
+    "@ui5/cli": "^2.0.3",
     "cross-var": "^1.1.0",
-    "mbt": "1.0.11",
-    "ui5-middleware-cfdestination": "^0.1.5",
-    "@ui5/cli": "^1.14.0",
-    "ui5-middleware-livereload": "^0.1.7",
-    "karma": "^4.4.1",
+    "eslint": "^6.8.0",
+    "karma": "^5.0.2",
     "karma-chrome-launcher": "^3.1.0",
-    "karma-coverage": "^2.0.1",
-    "karma-ui5": "^1.1.0",
+    "karma-coverage": "^2.0.2",
+    "karma-ui5": "^2.1.0",
+    "mbt": "1.0.14",
     "npm-run-all": "^4.1.5",
-    "eslint": "^6.8.0"
+    "sqlite3": "^4.1.1",
+    "ui5-middleware-cfdestination": "^0.1.7",
+    "ui5-middleware-livereload": "^0.1.10"
   },
   "cds": {
     "requires": {
@@ -47,13 +49,29 @@
         "kind": "xsuaa"
       },
       "db": {
-        "kind": "sqlite"
+        "kind": "sqlite",
+        "model": [
+          "db",
+          "srv"
+        ],
+        "credentials": {
+          "database": "timetracking.db"
+        },
+        "[production]": {
+          "kind": "hana"
+        }
       }
     },
     "odata": {
       "version": "v4"
     }
   },
+  "files": [
+    "db",
+    "srv",
+    "app",
+    "ui-customers"
+  ],
   "ui5": {
     "dependencies": [
       "ui5-middleware-cfdestination",
