@@ -1,5 +1,5 @@
 sap.ui.define(["sap/fe/core/AppComponent"], (ac) =>
-  ac.extend("employees.Component", {
+  ac.extend("leaves.Component", {
     metadata: { manifest: "json" },
   })
 );

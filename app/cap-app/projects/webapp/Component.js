@@ -1,5 +1,5 @@
-sap.ui.define(["sap/fe/AppComponent"], ac =>
+sap.ui.define(["sap/fe/core/AppComponent"], (ac) =>
   ac.extend("projects.Component", {
-    metadata: { manifest: "json" }
+    metadata: { manifest: "json" },
   })
 );

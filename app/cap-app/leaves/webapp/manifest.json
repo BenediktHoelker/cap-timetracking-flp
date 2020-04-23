@@ -1,14 +1,14 @@
 {
     "_version": "1.8.0",
     "sap.app": {
-        "id": "customers",
+        "id": "leaves",
         "type": "application",
-        "title": "Kunden bearbeiten",
-        "description": "Management von Kunden",
+        "title": "Abwesenheit bearbeiten",
+        "description": "Abwesenheit managen",
         "i18n": "i18n/i18n.properties",
         "dataSources": {
-            "CustomerService": {
-                "uri": "/customers/",
+            "LeavesService": {
+                "uri": "/leaves/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"
@@ -33,7 +33,7 @@
                 "uri": "i18n/i18n.properties"
             },
             "": {
-                "dataSource": "CustomerService",
+                "dataSource": "LeavesService",
                 "settings": {
                     "synchronizationMode": "None",
                     "operationMode": "Server",
@@ -51,62 +51,40 @@
             "routes": [
                 {
                     "pattern": ":?query:",
-                    "name": "CustomersList",
-                    "target": "CustomersList"
+                    "name": "LeavesList",
+                    "target": "LeavesList"
                 },
                 {
-                    "pattern": "Customers({key}):?query:",
-                    "name": "CustomerDetails",
-                    "target": "CustomerDetails"
-                },
-                {
-                    "pattern": "Customers({key})/projects({key2}):?query:",
-                    "name": "ProjectDetails",
-                    "target": "ProjectDetails"
+                    "pattern": "Leaves({key}):?query:",
+                    "name": "LeaveDetails",
+                    "target": "LeaveDetails"
                 }
             ],
             "targets": {
-                "CustomersList": {
+                "LeavesList": {
                     "type": "Component",
-                    "id": "CustomersList",
+                    "id": "LeavesList",
                     "name": "sap.fe.templates.ListReport",
                     "options": {
                         "settings": {
-                            "entitySet": "Customers",
+                            "entitySet": "Leaves",
                             "navigation": {
-                                "Customers": {
+                                "Leaves": {
                                     "detail": {
-                                        "route": "CustomerDetails"
+                                        "route": "LeaveDetails"
                                     }
                                 }
                             }
                         }
                     }
                 },
-                "CustomerDetails": {
+                "LeaveDetails": {
                     "type": "Component",
-                    "id": "CustomerDetails",
+                    "id": "LeaveDetails",
                     "name": "sap.fe.templates.ObjectPage",
                     "options": {
                         "settings": {
-                            "entitySet": "Customers"
-                        }
-                    }
-                },
-                "ProjectDetails": {
-                    "type": "Component",
-                    "id": "ProjectDetails",
-                    "name": "sap.fe.templates.ObjectPage",
-                    "options": {
-                        "settings": {
-                            "entitySet": "Projects",
-                            "navigation": {
-                                "projects": {
-                                    "detail": {
-                                        "route": "ProjectDetails"
-                                    }
-                                }
-                            }
+                            "entitySet": "Leaves"
                         }
                     }
                 }

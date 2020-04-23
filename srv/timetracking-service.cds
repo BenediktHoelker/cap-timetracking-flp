@@ -72,6 +72,7 @@ service TimetrackingService {
                         ) / 1440
                     ), 2
                 ) as bonus        @(title : '{i18n>Employees.bonus}')        : Double,
+                manager,
                 projects                                                     : redirected to ProjectMembers,
                 travels                                                      : redirected to Travels,
                 travelAggr,

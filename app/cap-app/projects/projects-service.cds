@@ -52,12 +52,12 @@ annotate my.Projects with @(UI : {
 
 annotate my.ProjectMembers with @(UI : {
     HeaderInfo          : {
-        TypeName       : '{i18n>Members}',
+        TypeName       : '{i18n>Member}',
         TypeNamePlural : '{i18n>Members}',
         Title          : {Value : employee.name}
     },
-    Identification      : [{Value : employee_ID}],
-    SelectionFields     : [employee_ID],
+    Identification      : [{Value : employee.name}],
+    SelectionFields     : [employee.name],
     LineItem            : [{
         Value : employee.name,
         Label : '{i18n>Employee}'

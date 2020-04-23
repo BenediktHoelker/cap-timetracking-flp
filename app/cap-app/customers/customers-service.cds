@@ -18,17 +18,3 @@ annotate my.Customers with @(UI : {
     {Value : projectsCount}
     ]}
 });
-
-annotate my.Customers with @(UI : {
-    HeaderInfo      : {
-        TypeName       : '{i18n>Customer}',
-        TypeNamePlural : '{i18n>Customers}',
-        Title          : {Value : name}
-    },
-    Identification  : [{Value : name}],
-    SelectionFields : [name],
-    LineItem        : [
-    {Value : name},
-    {Value : projectsCount}
-    ]
-});

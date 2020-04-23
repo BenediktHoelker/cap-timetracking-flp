@@ -23,42 +23,25 @@ annotate my.Employees with @(UI : {
         Target : 'leaves/@UI.LineItem'
     }
     ],
-    FieldGroup #General : {Data : [{Value : name}]}
+    FieldGroup #General : {Data : [
+    {Value : name},
+    {
+        Value : manager_ID,
+        Label : '{i18n>Manager}'
+    }
+    ]}
 });
 
-annotate my.Leaves with @(UI : {
-    HeaderInfo          : {
-        TypeName       : '{i18n>Leave}',
-        TypeNamePlural : '{i18n>Leaves}',
-        Title          : {Value : reason}
-    },
-    Facets              : [
-    {
-        $Type  : 'UI.ReferenceFacet',
-        Label  : '{i18n>General}',
-        Target : '@UI.FieldGroup#General'
-    },
-    {
-        $Type  : 'UI.ReferenceFacet',
-        Label  : '{i18n>Leaves.Dates}',
-        Target : '@UI.FieldGroup#Dates'
-    }
-    ],
-    FieldGroup #General : {Data : [
-    {Value : reason},
-    {Value : daysOfLeave},
-    ]},
-    FieldGroup #Dates   : {Data : [
-    {Value : dateFrom},
-    {Value : dateTo},
-    ]},
-    LineItem            : [
-    {Value : reason},
-    {Value : daysOfLeave},
-    {Value : dateFrom},
-    {Value : dateTo}
-    ]
-});
+annotate my.Employees with {
+    ID      @UI.Hidden;
+    manager @(
+        Common    : {
+            Text         : manager.name,
+            FieldControl : #Mandatory
+        },
+        ValueList : {entity : 'Employees'}
+    );
+}
 
 annotate my.Travels with @(UI : {
     HeaderInfo          : {
@@ -110,8 +93,8 @@ annotate my.ProjectMembers with @(UI : {
         TypeNamePlural : '{i18n>Projects}',
         Title          : {Value : project.title}
     },
-    Identification      : [{Value : project_ID}],
-    SelectionFields     : [project_ID],
+    Identification      : [{Value : title}],
+    SelectionFields     : [title],
     LineItem            : [{
         Value : project.title,
         Label : '{i18n>Project}'
