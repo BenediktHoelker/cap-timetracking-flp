@@ -25,10 +25,5 @@
                 }
             }
         ]
-    },
-    "auth": {
-        "passport": {
-            "strategy": "JWT"
-        }
     }
 }

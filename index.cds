@@ -1,4 +1,3 @@
-using from './db/schema';
 using from './srv/customers-service';
 using from './srv/employees-service';
 using from './srv/invoices-service';

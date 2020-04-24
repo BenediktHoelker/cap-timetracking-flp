@@ -1,0 +1,560 @@
+#2.0#2020 04 23 22:37:55.074#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:19:58 UTC 2020] Cell c02188d7-d38d-47c2-b6d6-508ef490d179 creating container for instance 6f0fbf41-4006-41a9-b8f7-1cfeb4184692 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:19:59 UTC 2020] Cell c02188d7-d38d-47c2-b6d6-508ef490d179 successfully created container for instance 6f0fbf41-4006-41a9-b8f7-1cfeb4184692 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:04 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:04 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:05 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:06 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] Deploy site elapsed time: 3536.532ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 3b52a994-82ac-4699-4e68-53298878d79e finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 3b52a994-82ac-4699-4e68-53298878d79e finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] Cell c02188d7-d38d-47c2-b6d6-508ef490d179 destroying container for instance 6f0fbf41-4006-41a9-b8f7-1cfeb4184692 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:09 UTC 2020] Cell c02188d7-d38d-47c2-b6d6-508ef490d179 stopping instance 6f0fbf41-4006-41a9-b8f7-1cfeb4184692 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.075#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:20:11 UTC 2020] Cell c02188d7-d38d-47c2-b6d6-508ef490d179 successfully destroyed container for instance 6f0fbf41-4006-41a9-b8f7-1cfeb4184692 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:44 UTC 2020] Cell 1956e4e1-c8fc-46ef-bd3b-e312f8f33340 creating container for instance 8b32b53c-a48c-463f-a99f-bb1e86297c02 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:45 UTC 2020] Cell 1956e4e1-c8fc-46ef-bd3b-e312f8f33340 successfully created container for instance 8b32b53c-a48c-463f-a99f-bb1e86297c02 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:49 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:49 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:50 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:51 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] Deploy site elapsed time: 3167.298ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 7e630ee8-9b72-466b-62f4-abca465fc4b4 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 7e630ee8-9b72-466b-62f4-abca465fc4b4 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] Cell 1956e4e1-c8fc-46ef-bd3b-e312f8f33340 stopping instance 8b32b53c-a48c-463f-a99f-bb1e86297c02 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:54 UTC 2020] Cell 1956e4e1-c8fc-46ef-bd3b-e312f8f33340 destroying container for instance 8b32b53c-a48c-463f-a99f-bb1e86297c02 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:34:55 UTC 2020] Cell 1956e4e1-c8fc-46ef-bd3b-e312f8f33340 successfully destroyed container for instance 8b32b53c-a48c-463f-a99f-bb1e86297c02 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.076#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:48 UTC 2020] Cell 2274e637-9a66-4b87-9aef-0682547637f7 creating container for instance 7a880561-50c6-4923-8432-7fb545bafea3 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:50 UTC 2020] Cell 2274e637-9a66-4b87-9aef-0682547637f7 successfully created container for instance 7a880561-50c6-4923-8432-7fb545bafea3 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:54 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:54 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:55 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:56 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:59 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 173e4af9-997c-4fb1-626f-31427b72bd2e finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:59 UTC 2020] Deploy site elapsed time: 3211.708ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:59 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 173e4af9-997c-4fb1-626f-31427b72bd2e finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:59 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:44:59 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:45:00 UTC 2020] Cell 2274e637-9a66-4b87-9aef-0682547637f7 destroying container for instance 7a880561-50c6-4923-8432-7fb545bafea3 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:45:00 UTC 2020] Cell 2274e637-9a66-4b87-9aef-0682547637f7 stopping instance 7a880561-50c6-4923-8432-7fb545bafea3 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:45:01 UTC 2020] Cell 2274e637-9a66-4b87-9aef-0682547637f7 successfully destroyed container for instance 7a880561-50c6-4923-8432-7fb545bafea3 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:58:56 UTC 2020] Cell 2a46a140-d0a7-4f0b-bdf8-79759eda761b creating container for instance 7a3d600e-ee86-4b05-9ba4-995f36c7640a (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.077#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:58:57 UTC 2020] Cell 2a46a140-d0a7-4f0b-bdf8-79759eda761b successfully created container for instance 7a3d600e-ee86-4b05-9ba4-995f36c7640a (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:02 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:02 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:03 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:03 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] Deploy site elapsed time: 3030.660ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 1211b52b-3d17-4e6f-46cf-87c8ee2b4ba8 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 1211b52b-3d17-4e6f-46cf-87c8ee2b4ba8 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] Cell 2a46a140-d0a7-4f0b-bdf8-79759eda761b destroying container for instance 7a3d600e-ee86-4b05-9ba4-995f36c7640a (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:06 UTC 2020] Cell 2a46a140-d0a7-4f0b-bdf8-79759eda761b stopping instance 7a3d600e-ee86-4b05-9ba4-995f36c7640a (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 20:59:07 UTC 2020] Cell 2a46a140-d0a7-4f0b-bdf8-79759eda761b successfully destroyed container for instance 7a3d600e-ee86-4b05-9ba4-995f36c7640a (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:06:56 UTC 2020] Cell 69aa1d8a-f5a6-4483-918b-96a9a81ec412 creating container for instance be769912-97cf-4b47-b688-2849da24a5aa (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:06:57 UTC 2020] Cell 69aa1d8a-f5a6-4483-918b-96a9a81ec412 successfully created container for instance be769912-97cf-4b47-b688-2849da24a5aa (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.078#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:02 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:02 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:02 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:03 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 5e228a34-95b1-4cfb-4dac-d52ffedffde1 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] Deploy site elapsed time: 2835.846ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 5e228a34-95b1-4cfb-4dac-d52ffedffde1 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] Cell 69aa1d8a-f5a6-4483-918b-96a9a81ec412 stopping instance be769912-97cf-4b47-b688-2849da24a5aa (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:06 UTC 2020] Cell 69aa1d8a-f5a6-4483-918b-96a9a81ec412 destroying container for instance be769912-97cf-4b47-b688-2849da24a5aa (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:07:07 UTC 2020] Cell 69aa1d8a-f5a6-4483-918b-96a9a81ec412 successfully destroyed container for instance be769912-97cf-4b47-b688-2849da24a5aa (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:10 UTC 2020] Cell 96db3d03-cb55-4f09-b17b-84a5655cbbf3 creating container for instance 42620ad4-061c-4dd9-9a1c-52217f413e11 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:11 UTC 2020] Cell 96db3d03-cb55-4f09-b17b-84a5655cbbf3 successfully created container for instance 42620ad4-061c-4dd9-9a1c-52217f413e11 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:15 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.079#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:15 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:16 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:16 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 4fb954e0-b3ba-461d-4858-76f9b64a73b1 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] Deploy site elapsed time: 3557.483ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 4fb954e0-b3ba-461d-4858-76f9b64a73b1 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] Cell 96db3d03-cb55-4f09-b17b-84a5655cbbf3 destroying container for instance 42620ad4-061c-4dd9-9a1c-52217f413e11 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:20 UTC 2020] Cell 96db3d03-cb55-4f09-b17b-84a5655cbbf3 stopping instance 42620ad4-061c-4dd9-9a1c-52217f413e11 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:16:21 UTC 2020] Cell 96db3d03-cb55-4f09-b17b-84a5655cbbf3 successfully destroyed container for instance 42620ad4-061c-4dd9-9a1c-52217f413e11 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:29:49 UTC 2020] Cell e52c14d1-40d9-45e8-949d-5425e24b3e67 creating container for instance bf30262d-1e07-4f72-8708-c1840aeb9131 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:29:50 UTC 2020] Cell e52c14d1-40d9-45e8-949d-5425e24b3e67 successfully created container for instance bf30262d-1e07-4f72-8708-c1840aeb9131 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:29:56 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:29:56 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.080#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:29:57 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:29:57 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] Deploy site elapsed time: 3596.228ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: c3dbd9cc-93e0-4710-7d97-7e8a113849b7 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: c3dbd9cc-93e0-4710-7d97-7e8a113849b7 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] Cell e52c14d1-40d9-45e8-949d-5425e24b3e67 destroying container for instance bf30262d-1e07-4f72-8708-c1840aeb9131 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:01 UTC 2020] Cell e52c14d1-40d9-45e8-949d-5425e24b3e67 stopping instance bf30262d-1e07-4f72-8708-c1840aeb9131 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:30:02 UTC 2020] Cell e52c14d1-40d9-45e8-949d-5425e24b3e67 successfully destroyed container for instance bf30262d-1e07-4f72-8708-c1840aeb9131 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:40 UTC 2020] Cell d3cfcc20-1797-471e-ac8e-8ee43e1e1631 creating container for instance c26dc882-9c72-4c3f-a83d-c6a88a12b775 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:42 UTC 2020] Cell d3cfcc20-1797-471e-ac8e-8ee43e1e1631 successfully created container for instance c26dc882-9c72-4c3f-a83d-c6a88a12b775 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:47 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:47 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.081#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:47 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:48 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] Deploy site elapsed time: 3186.078ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: f38dc2b1-9840-484e-7f44-68e38cc78219 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: f38dc2b1-9840-484e-7f44-68e38cc78219 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] Cell d3cfcc20-1797-471e-ac8e-8ee43e1e1631 destroying container for instance c26dc882-9c72-4c3f-a83d-c6a88a12b775 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:51 UTC 2020] Cell d3cfcc20-1797-471e-ac8e-8ee43e1e1631 stopping instance c26dc882-9c72-4c3f-a83d-c6a88a12b775 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 21:53:52 UTC 2020] Cell d3cfcc20-1797-471e-ac8e-8ee43e1e1631 successfully destroyed container for instance c26dc882-9c72-4c3f-a83d-c6a88a12b775 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:00 UTC 2020] Cell 88da748a-828b-43bc-9d72-45b651b53f56 creating container for instance 51e85d88-106c-4e8d-b5b4-715b2945d54d (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:01 UTC 2020] Cell 88da748a-828b-43bc-9d72-45b651b53f56 successfully created container for instance 51e85d88-106c-4e8d-b5b4-715b2945d54d (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:07 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:07 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:08 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.082#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:08 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] Deploy site elapsed time: 3219.304ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 0fdf8bd8-2004-4833-7154-19e59ed02071 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: 0fdf8bd8-2004-4833-7154-19e59ed02071 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] Cell 88da748a-828b-43bc-9d72-45b651b53f56 destroying container for instance 51e85d88-106c-4e8d-b5b4-715b2945d54d (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:12 UTC 2020] Cell 88da748a-828b-43bc-9d72-45b651b53f56 stopping instance 51e85d88-106c-4e8d-b5b4-715b2945d54d (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:10:13 UTC 2020] Cell 88da748a-828b-43bc-9d72-45b651b53f56 successfully destroyed container for instance 51e85d88-106c-4e8d-b5b4-715b2945d54d (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:44 UTC 2020] Cell 3951d077-542d-4577-a3a9-afcdc22dfe73 creating container for instance 884dfa97-ddfd-408f-a0b4-314c502419d9 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:45 UTC 2020] Cell 3951d077-542d-4577-a3a9-afcdc22dfe73 successfully created container for instance 884dfa97-ddfd-408f-a0b4-314c502419d9 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:50 UTC 2020] > node node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:50 UTC 2020] > launchpad-site-content@ start /home/vcap/app (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.083#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:51 UTC 2020] deploy flow- SAP_CONTENT_PROVIDER = false, SAP_LOCAL_CONTENT_PROVIDER = false (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:37:55.084#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-3###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:51 UTC 2020] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["462631f4-8b07-495f-b59e-6b83f10bfc2e"],"boundAppHostIds":[]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"cap-timetracking!t43863","html5-apps-repo-dt":"462631f4-8b07-495f-b59e-6b83f10bfc2e!b43863|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:38:05.022#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] Deploy site elapsed time: 3241.348ms (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:38:05.022#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] Portal service deploy success. status = 200, data: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: da753785-1864-4bd1-7db7-67f555280e0e finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:38:05.023#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:38:05.023#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 928fc1df-7869-4dac-aa7b-a3f18fe12325, correlation id: da753785-1864-4bd1-7db7-67f555280e0e finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:38:05.023#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2020 04 23 22:38:05.023#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] Cell 3951d077-542d-4577-a3a9-afcdc22dfe73 destroying container for instance 884dfa97-ddfd-408f-a0b4-314c502419d9 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:38:05.023#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:54 UTC 2020] Cell 3951d077-542d-4577-a3a9-afcdc22dfe73 stopping instance 884dfa97-ddfd-408f-a0b4-314c502419d9 (STDOUT, CELL)#
+
+#2.0#2020 04 23 22:38:05.023#Z#DEBUG#com.sap.cloud.lm.sl.xs2.e1e2a068-85b2-11ea-97b0-eeee0a96a0da.cap-timetracking_launchpad_deployer.executeTaskTask#
+######com.sap.cloud.lm.sl.cf.persistence.services.ProcessLogger########flowable-async-job-executor-thread-5###
+[PollExecuteTaskStatusExecution] [cap-timetracking_launchpad_deployer] c389ae32-79f9-4b41-ab3d-df9b83284c0f [Thu Apr 23 22:37:56 UTC 2020] Cell 3951d077-542d-4577-a3a9-afcdc22dfe73 successfully destroyed container for instance 884dfa97-ddfd-408f-a0b4-314c502419d9 (STDOUT, CELL)#
+

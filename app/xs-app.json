@@ -1,11 +1,15 @@
 {
     "welcomeFile": "/cp.portal",
+    "authenticationMethod": "route",
     "routes": [
         {
-            "source": "^/customers/(.*)$",
+            "source": "^/odata/(.*)$",
             "target": "$1",
             "authenticationType": "xsuaa",
-            "destination": "srv_api"
+            "destination": "srv_api",
+            "scope": [
+                "$XSAPPNAME.admin"
+            ]
         }
     ]
 }

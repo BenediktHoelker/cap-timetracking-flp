@@ -49,9 +49,6 @@ modules:
       - name: srv_api
         properties:
           url: ${default-url}
-    requires:
-      - name: cap-timetracking_uaa
-      - name: timetracking-db-hdi-container
   - name: timetracking-db
     type: hdb
     path: db
