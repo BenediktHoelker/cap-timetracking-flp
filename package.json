@@ -13,8 +13,8 @@
     "clearCoverage": "shx rm -rf coverage",
     "karma": "run-s clearCoverage karma-ci",
     "lint": "eslint .",
-    "build:mta": "cds build/all && mbt build -p=cf",
-    "deploy:cf": "npm run build:mta && cross-var cf deploy mta_archives/cap-timetracking_$npm_package_version.mtar",
+    "build:mta": "cds build/all --clean && mbt build -p=cf",
+    "deploy:cf": "npm run build:mta && npm run build:ui && cross-var cf deploy mta_archives/cap-timetracking_$npm_package_version.mtar",
     "build:customers": "ui5 build --config app/cap-app/customers/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/customers",
     "build:webapp": "ui5 build --clean-dest --include-task=generateManifestBundle --dest deployer/resources/webapp",
     "build:ui": "run-p build:customers build:webapp"

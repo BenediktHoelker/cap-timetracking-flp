@@ -3,8 +3,11 @@
     "version": "1.0.0",
     "dependencies": {
         "@sap/cds": "^3.33.1",
+        "@sap/hana-client": "^2.4.191",
+        "@sap/xsenv": "^2.2.0",
+        "@sap/xssec": "^2.2.5",
         "express": "^4.17.1",
-        "@sap/hana-client": "^2.4.191"
+        "passport": "^0.4.1"
     },
     "engines": {
         "node": "^10"
@@ -17,6 +20,11 @@
             "db": {
                 "kind": "hana",
                 "model": "gen/csn.json"
+            }
+        },
+        "auth": {
+            "passport": {
+                "strategy": "JWT"
             }
         }
     }

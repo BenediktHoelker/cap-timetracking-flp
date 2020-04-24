@@ -8,11 +8,12 @@ modules:
   - name: cap-timetracking
     type: nodejs
     path: app
+    build-parameters:
+      ignore: ["node_modules/"]
     parameters:
       disk-quota: 512M
       memory: 512M
     requires:
-      - name: cap-timetracking_destination
       - name: cap-timetracking_uaa
       - name: cap-timetracking_html5_repo_runtime
       - name: cap-timetracking_portal
@@ -30,6 +31,7 @@ modules:
       - name: cap-timetracking_html5_repo_host
     build-parameters:
       builder: custom
+      ignore: ["node_modules/"]
       commands:
         - npm run build:ui --prefix ..
   - name: cap-timetracking_launchpad_deployer
@@ -43,16 +45,21 @@ modules:
     type: nodejs
     path: srv
     parameters:
+      ignore: ["node_modules/"]
       memory: 1024M
       disk-quota: 1024M
     provides:
       - name: srv_api
         properties:
           url: ${default-url}
+    requires:
+      - name: cap-timetracking_uaa
+      - name: timetracking-db-hdi-container
   - name: timetracking-db
     type: hdb
     path: db
     parameters:
+      ignore: ["node_modules/"]
       memory: 1024M
       disk-quota: 1024M
     requires:
@@ -64,11 +71,10 @@ resources:
       service-plan: lite
       service: destination
   - name: cap-timetracking_uaa
-    type: org.cloudfoundry.managed-service
+    type: com.sap.xs.uaa
     parameters:
-      path: ./xs-security.json
-      service-plan: application
       service: xsuaa
+      path: xs-security.json
   - name: cap-timetracking_html5_repo_runtime
     type: org.cloudfoundry.managed-service
     parameters:
@@ -91,4 +97,5 @@ resources:
     properties:
       hdi-container-name: ${service-name}
     parameters:
+      service-plan: hdi-shared
       service: hanatrial
