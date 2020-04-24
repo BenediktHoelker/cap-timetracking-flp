@@ -1,17 +1,40 @@
 {
     "_version": "1.8.0",
+    "sap.platform.cf": {
+        "oAuthScopes": [
+            "$XSAPPNAME.admin"
+        ]
+    },
     "sap.app": {
         "id": "invoices",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
         "type": "application",
         "title": "{{appTitle}}",
         "description": "{{appDescription}}",
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "InvoicesService": {
-                "uri": "/invoices/",
+                "uri": "/odata/invoices/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "intent1": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "invoices",
+                    "action": "display",
+                    "title": "Rechnungen",
+                    "description": "Anzeigen und Bearbeiten",
+                    "icon": "sap-icon://simple-payment"
                 }
             }
         },
@@ -23,6 +46,7 @@
     },
     "sap.ui5": {
         "dependencies": {
+            "minUI5Version": "1.60.0",
             "libs": {
                 "sap.fe": {}
             }

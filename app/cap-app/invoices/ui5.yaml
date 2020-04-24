@@ -1,0 +1,8 @@
+specVersion: "2.0"
+metadata:
+  name: cap-timetracking-invoices
+type: application
+resources:
+  configuration:
+    paths:
+      webapp: app/cap-app/invoices/webapp

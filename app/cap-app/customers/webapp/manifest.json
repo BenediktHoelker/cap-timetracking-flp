@@ -1,5 +1,10 @@
 {
     "_version": "1.8.0",
+    "sap.platform.cf": {
+        "oAuthScopes": [
+            "$XSAPPNAME.admin"
+        ]
+    },
     "sap.app": {
         "id": "customers",
         "applicationVersion": {
@@ -29,7 +34,7 @@
                     "action": "display",
                     "title": "Kunden",
                     "description": "Anzeigen und Bearbeiten",
-                    "icon": "sap-icon://customers"
+                    "icon": "sap-icon://customer"
                 }
             }
         },

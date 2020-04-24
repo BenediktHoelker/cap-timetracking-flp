@@ -1,17 +1,40 @@
 {
     "_version": "1.8.0",
+    "sap.platform.cf": {
+        "oAuthScopes": [
+            "$XSAPPNAME.admin"
+        ]
+    },
     "sap.app": {
         "id": "projects",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
         "type": "application",
         "title": "Projekte bearbeiten",
         "description": "Management von Projekten",
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "AdminService": {
-                "uri": "/projects/",
+                "uri": "/odata/projects/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "intent1": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "projects",
+                    "action": "display",
+                    "title": "Projekte",
+                    "description": "Anzeigen und Bearbeiten",
+                    "icon": "sap-icon://collaborate"
                 }
             }
         },
@@ -23,6 +46,7 @@
     },
     "sap.ui5": {
         "dependencies": {
+            "minUI5Version": "1.60.0",
             "libs": {
                 "sap.fe": {}
             }

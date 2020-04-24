@@ -1,6 +1,6 @@
 ID: cap-timetracking
 _schema-version: 3.2.0
-description: Enter description here
+description: Project management / timetracking for IT-service-providers based on SAP CAP and UI5
 version: 0.0.1
 parameters:
   enable-parallel-deployments: true

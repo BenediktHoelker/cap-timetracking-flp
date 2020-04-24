@@ -29,14 +29,34 @@
         "payload": {
           "viz": [
             {
-              "id": "iot.cap-timetracking-0-1576776620655",
-              "appId": "iot.cap-timetracking",
-              "vizId": "data-display"
-            },
-            {
-              "id": "customers-0-1576776620658",
+              "id": "customers-0-1587718266733",
               "appId": "customers",
               "vizId": "customers-display"
+            },
+            {
+              "id": "employees-0-1587718307754",
+              "appId": "employees",
+              "vizId": "employees-display"
+            },
+            {
+              "id": "records-0-1587718310169",
+              "appId": "records",
+              "vizId": "records-display"
+            },
+            {
+              "id": "projects-0-1587718310169",
+              "appId": "projects",
+              "vizId": "projects-display"
+            },
+            {
+              "id": "leaves-0-1587718365228",
+              "appId": "leaves",
+              "vizId": "leaves-display"
+            },
+            {
+              "id": "invoices-0-1587718357484",
+              "appId": "invoices",
+              "vizId": "invoices-display"
             }
           ]
         }

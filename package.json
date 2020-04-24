@@ -16,8 +16,13 @@
     "build:mta": "cds build/all --clean && mbt build -p=cf",
     "deploy:cf": "npm run build:mta && npm run build:ui && cross-var cf deploy mta_archives/cap-timetracking_$npm_package_version.mtar",
     "build:customers": "ui5 build --config app/cap-app/customers/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/customers",
+    "build:records": "ui5 build --config app/cap-app/records/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/records",
+    "build:projects": "ui5 build --config app/cap-app/projects/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/projects",
+    "build:employees": "ui5 build --config app/cap-app/employees/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/employees",
+    "build:leaves": "ui5 build --config app/cap-app/leaves/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/leaves",
+    "build:invoices": "ui5 build --config app/cap-app/invoices/ui5.yaml --clean-dest --include-task=generateManifestBundle --dest deployer/resources/invoices",
     "build:webapp": "ui5 build --clean-dest --include-task=generateManifestBundle --dest deployer/resources/webapp",
-    "build:ui": "run-p build:customers build:webapp"
+    "build:ui": "run-p build:customers build:records build:projects build:employees build:leaves build:invoices"
   },
   "dependencies": {
     "@openui5/sap.m": "^1.77.0",

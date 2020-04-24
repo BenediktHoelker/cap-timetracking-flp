@@ -3,15 +3,33 @@
     "sap.app": {
         "id": "records",
         "type": "application",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
         "title": "Aufwände erfassen",
         "description": "Aufwände erfassen, bearbeiten und löschen",
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "RecordsService": {
-                "uri": "/records/",
+                "uri": "/odata/records/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "intent1": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "records",
+                    "action": "display",
+                    "title": "Aufwände",
+                    "description": "Anzeigen und Bearbeiten",
+                    "icon": "sap-icon://timesheet"
                 }
             }
         },
@@ -23,6 +41,7 @@
     },
     "sap.ui5": {
         "dependencies": {
+            "minUI5Version": "1.60.0",
             "libs": {
                 "sap.fe": {}
             }

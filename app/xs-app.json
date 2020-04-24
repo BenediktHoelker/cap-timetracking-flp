@@ -6,10 +6,7 @@
             "source": "^/odata/(.*)$",
             "target": "$1",
             "authenticationType": "xsuaa",
-            "destination": "srv_api",
-            "scope": [
-                "$XSAPPNAME.admin"
-            ]
+            "destination": "srv_api"
         }
     ]
 }

@@ -3,15 +3,33 @@
     "sap.app": {
         "id": "employees",
         "type": "application",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
         "title": "Mitarbeiter bearbeiten",
         "description": "Mitarbeiter ansehen und bearbeiten",
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "EmployeesService": {
-                "uri": "/employees/",
+                "uri": "/odata/employees/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"
+                }
+            }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "intent1": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "employees",
+                    "action": "display",
+                    "title": "Mitarbeiter",
+                    "description": "Anzeigen und Bearbeiten",
+                    "icon": "sap-icon://actor"
                 }
             }
         },
@@ -23,6 +41,7 @@
     },
     "sap.ui5": {
         "dependencies": {
+            "minUI5Version": "1.60.0",
             "libs": {
                 "sap.fe": {}
             }
