@@ -1,5 +1,5 @@
 {
-    "welcomeFile": "cap-app/index.html",
+    "welcomeFile": "cap-app",
     "authenticationMethod": "route",
     "logout": {
         "logoutEndpoint": "/do/logout"
