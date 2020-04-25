@@ -1,10 +1,17 @@
 {
-    "welcomeFile": "/cp.portal",
+    "welcomeFile": "cap-app/index.html",
     "authenticationMethod": "route",
+    "logout": {
+        "logoutEndpoint": "/do/logout"
+    },
     "routes": [
         {
-            "source": "^/odata/(.*)$",
+            "source": "^/cap-app/(.*)$",
             "target": "$1",
+            "localDir": "cap-app/"
+        },
+        {
+            "source": "^(.*)$",
             "authenticationType": "xsuaa",
             "destination": "srv_api"
         }

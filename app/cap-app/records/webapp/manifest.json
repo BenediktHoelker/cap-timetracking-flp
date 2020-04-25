@@ -11,7 +11,7 @@
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "RecordsService": {
-                "uri": "/odata/records/",
+                "uri": "/records/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"

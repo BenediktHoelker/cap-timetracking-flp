@@ -14,5 +14,5 @@ server:
       configuration:
         debug: true
         port: 1091
-        xsappJson: approuter/xs-app.json
+        xsappJson: app/xs-app.json
         destinations: []
