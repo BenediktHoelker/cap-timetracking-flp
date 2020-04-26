@@ -2,7 +2,8 @@
     "_version": "1.8.0",
     "sap.platform.cf": {
         "oAuthScopes": [
-            "$XSAPPNAME.admin"
+            "$XSAPPNAME.admin",
+            "$XSAPPNAME.project_manager"
         ]
     },
     "sap.app": {

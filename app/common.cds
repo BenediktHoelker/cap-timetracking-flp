@@ -45,7 +45,14 @@ annotate my.Records with @(UI : {
     });
 }
 
-annotate my.Projects with {
+annotate my.Projects with @(UI : {
+    Identification  : [{Value : title}],
+    SelectionFields : [title],
+    LineItem        : [
+    {Value : title},
+    {Value : description}
+    ]
+}) {
     ID       @UI.Hidden;
     ID       @(
         Common : {
@@ -59,16 +66,12 @@ annotate my.Projects with {
         FieldControl     : #Mandatory,
         ValueList.entity : 'Customers'
     });
+    manager  @(Common : {
+        Text             : manager.name,
+        FieldControl     : #Mandatory,
+        ValueList.entity : 'Employees'
+    });
 }
-
-annotate my.Projects with @(UI : {
-    Identification  : [{Value : title}],
-    SelectionFields : [title],
-    LineItem        : [
-    {Value : title},
-    {Value : description}
-    ]
-});
 
 annotate my.Employees with @(UI : {
     HeaderInfo      : {

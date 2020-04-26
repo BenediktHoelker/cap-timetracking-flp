@@ -25,17 +25,18 @@ service TimetrackingService {
                 billingFactor,
                 count(
                     members.records.ID
-                ) as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
+                )                as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
                 sum(
                     members.records.time
-                ) as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
+                )                as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
                 createdAt,
                 createdBy,
                 modifiedAt,
                 modifiedBy,
                 customer,
                 manager,
-                members                                                     : redirected to ProjectMembers
+                manager.username as managerUserName,
+                members                                                                    : redirected to ProjectMembers
         }
         group by
             Projects.ID,
@@ -47,6 +48,7 @@ service TimetrackingService {
             Projects.modifiedBy,
             Projects.billingFactor,
             Projects.manager,
+            Projects.manager.username,
             Projects.customer;
 
     entity Employees          as
@@ -120,7 +122,12 @@ service TimetrackingService {
         * , invoice : redirected to Invoices
     };
 
-    entity Leaves             as projection on my.Leaves;
+    entity Leaves             as
+        select from my.Leaves {
+            *,
+            employee.username
+        };
+
     entity LeaveAggregations  as projection on my.LeaveAggregations;
     entity Travels            as projection on my.Travels;
     entity TravelAggregations as projection on my.TravelAggregations;
@@ -132,5 +139,6 @@ service TimetrackingService {
             project.title,
             project.title || ' - ' || employee.name as projectMember @(title : '{i18n>ProjectMembers.projectMember}') : String,
             employee.name,
+            employee.username
         };
 }

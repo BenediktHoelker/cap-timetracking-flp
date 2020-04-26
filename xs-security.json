@@ -9,7 +9,11 @@
     },
     {
       "name": "$XSAPPNAME.admin",
-      "description": "admin"
+      "description": "Admin"
+    },
+    {
+      "name": "$XSAPPNAME.project_manager",
+      "description": "Project Manager"
     }
   ],
   "role-templates": [
@@ -25,6 +29,14 @@
       "description": "generated",
       "scope-references": [
         "$XSAPPNAME.admin"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "project_manager",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.project_manager"
       ],
       "attribute-references": []
     }

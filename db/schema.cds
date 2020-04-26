@@ -119,6 +119,7 @@ entity Leaves : cuid, managed {
   dateFrom    : Date                         @mandatory  @title : '{i18n>Leaves.dateFrom}';
   dateTo      : Date                         @title :             '{i18n>Leaves.dateTo}';
   daysOfLeave : Integer                      @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
+  username    : String                       @title :             '{i18n>Leaves.username}';
   status      : Association to LeaveStatus   @title :             '{i18n>Leaves.status}';
   employee    : Association to one Employees @title :             '{i18n>Leaves.employee}';
 }

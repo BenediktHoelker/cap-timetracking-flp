@@ -15,7 +15,14 @@ annotate my.Projects with @(UI : {
     LineItem            : [
     {Value : title},
     {Value : description},
-    {Value : customer.name},
+    {
+        Value : customer.name,
+        Label : '{i18n>Projects.customer}'
+    },
+    {
+        Value : manager.name,
+        Label : '{i18n>Projects.manager}'
+    },
     {Value : totalTime},
     {Value : recordsCount}
     ],
@@ -40,6 +47,7 @@ annotate my.Projects with @(UI : {
     {Value : title},
     {Value : description},
     {Value : customer_ID},
+    {Value : manager_ID},
     {Value : billingFactor}
     ]},
     FieldGroup #Admin   : {Data : [
@@ -68,9 +76,7 @@ annotate my.ProjectMembers with @(UI : {
         Target : '@UI.FieldGroup#General'
     }],
     FieldGroup #General : {Data : [{Value : employee_ID}]}
-});
-
-annotate my.ProjectMembers with {
+}) {
     ID       @UI.Hidden;
     employee @(
         Common    : {
