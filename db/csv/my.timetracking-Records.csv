@@ -2,5 +2,5 @@ ID;createdAt;createdBy;modifiedAt;modifiedBy;title;description;time;timeUnit;dat
 93089eb6-1e44-46e8-89cd-48c1890f8d58;2020-03-20;alice;2020-03-22;alice;Stammdatenpflege;Anlegen der Warengruppen;4;h;2020-03-09;df7cd745-996c-45b3-a24f-4822abc0e612
 2c99c03a-ebbf-428b-874a-8ad84ba16d25;2020-03-20;alice;2020-03-22;alice;UI5 Routing;Konfiguration der manifest.json;4;h;2020-03-03;bafa9605-e24e-491f-b187-0b5e63590002
 888851ad-7eb7-488b-90c7-829ae64d0083;2020-03-20;alice;2020-03-20;alice;Konzeption;Konzeption im Rahmen der Projektvorbereitung;3;h;2020-03-07;f8c5370d-607d-48b7-9fd9-7a52421ccd7a
-e255ef04-ee04-48aa-9f46-05abb622f2c7;2020-03-22;alice;2020-03-22;alice;Fiori Launchpad;Rollen und Gruppen anlegen;5;h;2020-03-18;bafa9605-e24e-491f-b187-0b5e63590002
+e255ef04-ee04-48aa-9f46-05abb622f2c7;2020-03-22;alice;2020-03-22;alice;Fiori Launchpad;Rollen und Gruppen anlegen;5;h;2020-03-18;7c8f0cf6-d884-489b-8d67-79932b04890b
 848c8a4c-491b-4879-8ac7-91125e526a57;2020-03-22;alice;2020-03-22;alice;Testvorbereitung;Anlegen von Testdaten;6;h;2020-03-22;df7cd745-996c-45b3-a24f-4822abc0e612

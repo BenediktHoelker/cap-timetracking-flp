@@ -11,7 +11,7 @@ annotate my.Records with @(UI : {
         Title          : {Value : title},
         Description    : {Value : description}
     },
-    Identification  : [{Value : title}],
+    Identification  : [title],
     SelectionFields : [
     title,
     description,
@@ -21,6 +21,7 @@ annotate my.Records with @(UI : {
     ],
     LineItem        : [
     {Value : title},
+    {Value : username},
     {
         Value : projectMember.title,
         Label : '{i18n>Project}'
@@ -34,9 +35,7 @@ annotate my.Records with @(UI : {
     {Value : time},
     {Value : status},
     ]
-});
-
-annotate my.Records with {
+}) {
     ID            @UI.Hidden;
     description   @UI.MultiLineText;
     projectMember @(Common : {
@@ -77,10 +76,11 @@ annotate my.Employees with @(UI : {
         TypeNamePlural : '{i18n>Employees}',
         Title          : {Value : name}
     },
-    Identification  : [{Value : name}],
+    Identification  : [name],
     SelectionFields : [name],
     LineItem        : [
     {Value : name},
+    {Value : username},
     {Value : recordsCount},
     {Value : billingTime},
     {Value : bonus},
@@ -92,11 +92,6 @@ annotate my.Employees with @(UI : {
     {Value : travelAggr.daysOfTravel}
     ]
 });
-
-
-annotate my.Employees with {
-    ID @UI.Hidden;
-}
 
 annotate my.Customers with @(UI : {
     HeaderInfo      : {
@@ -179,7 +174,7 @@ annotate my.Leaves with @(UI : {
     ],
     FieldGroup #General : {Data : [
     {Value : reason},
-    {Value : status.title}
+    {Value : status.text}
     ]},
     FieldGroup #Dates   : {Data : [
     {Value : dateFrom},
@@ -191,6 +186,6 @@ annotate my.Leaves with @(UI : {
     {Value : daysOfLeave},
     {Value : dateFrom},
     {Value : dateTo},
-    {Value : status.title},
+    {Value : status.text},
     ]
 });

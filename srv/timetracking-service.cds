@@ -4,6 +4,7 @@ service TimetrackingService {
     entity Records            as
         select from my.Records {
             *,
+            projectMember.employee.username as username @readonly,
             case
                 when
                     invoiceItem.ID is null
@@ -11,7 +12,7 @@ service TimetrackingService {
                     'INITIAL'
                 else
                     'BILLED'
-            end as status @(title : '{i18n>Records.status}') : String
+            end                             as status   @(title : '{i18n>Records.status}') : String
         }
         order by
             Records.createdAt desc;
@@ -48,36 +49,36 @@ service TimetrackingService {
 
     entity Employees          as
         select from my.Employees {
-            key ID,
-                createdAt,
-                createdBy,
-                modifiedAt,
-                modifiedBy,
-                name,
-                username,
-                daysOfLeave,
-                daysOfTravel,
-                round(
-                    sum(
+            ID,
+            username,
+            name,
+            createdAt,
+            createdBy,
+            modifiedAt,
+            modifiedBy,
+            daysOfLeave,
+            daysOfTravel,
+            round(
+                sum(
+                    projects.records.time
+                ), 2
+            ) as billingTime  @(title : '{i18n>Employees.billingTime}')  : Double,
+            count(
+                projects.records.ID
+            ) as recordsCount @(title : '{i18n>Employees.recordsCount}') : Integer,
+            round(
+                sum(
+                    (
                         projects.records.time
-                    ), 2
-                ) as billingTime  @(title : '{i18n>Employees.billingTime}')  : Double,
-                count(
-                    projects.records.ID
-                ) as recordsCount @(title : '{i18n>Employees.recordsCount}') : Integer,
-                round(
-                    sum(
-                        (
-                            projects.records.time
-                        ) / 1440
-                    ), 2
-                ) as bonus        @(title : '{i18n>Employees.bonus}')        : Double,
-                manager,
-                projects                                                     : redirected to ProjectMembers,
-                travels                                                      : redirected to Travels,
-                travelAggr,
-                leaves                                                       : redirected to Leaves,
-                leaveAggr
+                    ) / 1440
+                ), 2
+            ) as bonus        @(title : '{i18n>Employees.bonus}')        : Double,
+            manager,
+            projects                                                     : redirected to ProjectMembers,
+            travels                                                      : redirected to Travels,
+            travelAggr,
+            leaves                                                       : redirected to Leaves,
+            leaveAggr
         }
         group by
             Employees.ID,
@@ -85,8 +86,8 @@ service TimetrackingService {
             Employees.createdBy,
             Employees.modifiedAt,
             Employees.modifiedBy,
-            Employees.name,
             Employees.username,
+            Employees.name,
             Employees.manager,
             Employees.daysOfLeave,
             Employees.daysOfTravel;
@@ -128,7 +129,6 @@ service TimetrackingService {
             *,
             project.title,
             project.title || ' - ' || employee.name as projectMember @(title : '{i18n>ProjectMembers.projectMember}') : String,
-            employee.username,
-            employee.name
+            employee.name,
         };
 }

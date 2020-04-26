@@ -25,14 +25,13 @@ annotate my.Employees with @(UI : {
     ],
     FieldGroup #General : {Data : [
     {Value : name},
+    {Value : username},
     {
         Value : manager_ID,
         Label : '{i18n>Manager}'
     }
     ]}
-});
-
-annotate my.Employees with {
+}) {
     ID      @UI.Hidden;
     manager @(
         Common    : {
@@ -41,7 +40,7 @@ annotate my.Employees with {
         },
         ValueList : {entity : 'Employees'}
     );
-}
+};
 
 annotate my.Travels with @(UI : {
     HeaderInfo          : {

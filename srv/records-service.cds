@@ -9,7 +9,7 @@ service RecordsService {
     },
     {
         grant : ['READ'],
-        where : 'createdBy = $user'
+        where : 'username = $user'
     },
     ])                  as projection on my.Records actions {
         // bound actions/functions
