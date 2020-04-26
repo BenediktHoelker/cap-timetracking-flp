@@ -1,5 +1,5 @@
 {
-    "welcomeFile": "cap-app",
+    "welcomeFile": "/cp.portal",
     "authenticationMethod": "route",
     "logout": {
         "logoutEndpoint": "/do/logout"
@@ -12,6 +12,7 @@
         },
         {
             "source": "^(.*)$",
+            "target": "$1",
             "authenticationType": "xsuaa",
             "destination": "srv_api"
         }

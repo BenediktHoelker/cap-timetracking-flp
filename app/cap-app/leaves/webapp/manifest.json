@@ -1,7 +1,7 @@
 {
     "_version": "1.8.0",
     "sap.app": {
-        "id": "leaves",
+        "id": "cap.timetracking.leaves",
         "type": "application",
         "applicationVersion": {
             "version": "1.0.0"

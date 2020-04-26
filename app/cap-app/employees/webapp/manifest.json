@@ -1,7 +1,7 @@
 {
     "_version": "1.8.0",
     "sap.app": {
-        "id": "employees",
+        "id": "cap.timetracking.employees",
         "type": "application",
         "applicationVersion": {
             "version": "1.0.0"

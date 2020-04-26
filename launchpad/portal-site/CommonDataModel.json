@@ -30,32 +30,32 @@
           "viz": [
             {
               "id": "customers-0-1587718266733",
-              "appId": "customers",
+              "appId": "cap.timetracking.customers",
               "vizId": "customers-display"
             },
             {
               "id": "employees-0-1587718307754",
-              "appId": "employees",
+              "appId": "cap.timetracking.employees",
               "vizId": "employees-display"
             },
             {
               "id": "records-0-1587718310169",
-              "appId": "records",
+              "appId": "cap.timetracking.records",
               "vizId": "records-display"
             },
             {
               "id": "projects-0-1587718310169",
-              "appId": "projects",
+              "appId": "cap.timetracking.projects",
               "vizId": "projects-display"
             },
             {
               "id": "leaves-0-1587718365228",
-              "appId": "leaves",
+              "appId": "cap.timetracking.leaves",
               "vizId": "leaves-display"
             },
             {
               "id": "invoices-0-1587718357484",
-              "appId": "invoices",
+              "appId": "cap.timetracking.invoices",
               "vizId": "invoices-display"
             }
           ]

@@ -6,7 +6,7 @@
         ]
     },
     "sap.app": {
-        "id": "invoices",
+        "id": "cap.timetracking.invoices",
         "applicationVersion": {
             "version": "1.0.0"
         },
