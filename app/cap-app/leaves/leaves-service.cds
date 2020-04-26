@@ -4,7 +4,7 @@ annotate my.Leaves with @(UI : {
     FieldGroup #General : {Data : [
     {Value : employee_ID},
     {Value : reason},
-    {Value : status_status}
+    {Value : status_ID}
     ]},
     UI                  : {LineItem : [
     {Value : employee.name},
@@ -12,7 +12,7 @@ annotate my.Leaves with @(UI : {
     {Value : dateFrom},
     {Value : dateTo},
     {Value : daysOfLeave},
-    {Value : status.title}
+    {Value : status.text}
     ]}
 }) {
     ID       @UI.Hidden;
@@ -26,5 +26,5 @@ annotate my.Leaves with @(UI : {
 };
 
 annotate my.LeaveStatus with {
-    status @UI.Hidden;
+    ID @UI.Hidden;
 }
