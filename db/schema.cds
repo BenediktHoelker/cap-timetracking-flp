@@ -32,6 +32,7 @@ entity Projects : cuid, managed {
   recordsCount  : Integer                      @title : '{i18n>Projects.recordsCount}';
   totalTime     : Integer                      @title : '{i18n>Projects.totalTime}';
   customer      : Association to one Customers @title : '{i18n>Projects.customer}';
+  manager       : Association to one Employees @title : '{i18n>Projects.manager}';
   packages      : Association to many Packages
                     on packages.project = $self;
   members       : Composition of many EmployeesToProjects

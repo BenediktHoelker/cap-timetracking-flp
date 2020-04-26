@@ -33,6 +33,7 @@ service TimetrackingService {
                 modifiedAt,
                 modifiedBy,
                 customer,
+                manager,
                 members                                                     : redirected to ProjectMembers
         }
         group by
@@ -44,6 +45,7 @@ service TimetrackingService {
             Projects.modifiedAt,
             Projects.modifiedBy,
             Projects.billingFactor,
+            Projects.manager,
             Projects.customer;
 
     entity Employees          as
