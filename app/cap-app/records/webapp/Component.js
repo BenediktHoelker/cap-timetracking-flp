@@ -1,5 +1,5 @@
 sap.ui.define(["sap/fe/core/AppComponent"], (ac) =>
-  ac.extend("iot.timetracking.records.Component", {
+  ac.extend("cap.timetracking.records.Component", {
     metadata: { manifest: "json" },
   })
 );
