@@ -4,7 +4,7 @@ service TimetrackingService {
     entity Records            as
         select from my.Records {
             *,
-            projectMember.username,
+            projectMember.employee.username as username @readonly,
             case
                 when
                     invoiceItem.ID is null
@@ -12,7 +12,7 @@ service TimetrackingService {
                     'INITIAL'
                 else
                     'BILLED'
-            end as status @(title : '{i18n>Records.status}') : String
+            end                             as status   @(title : '{i18n>Records.status}') : String
         }
         order by
             Records.createdAt desc;
@@ -130,6 +130,5 @@ service TimetrackingService {
             project.title,
             project.title || ' - ' || employee.name as projectMember @(title : '{i18n>ProjectMembers.projectMember}') : String,
             employee.name,
-            employee.username,
         };
 }

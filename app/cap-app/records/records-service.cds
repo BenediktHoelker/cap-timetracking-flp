@@ -17,7 +17,6 @@ annotate my.Records with @(UI : {
     {Value : title},
     {Value : description},
     {Value : projectMember_ID},
-    {Value : username},
     {Value : date},
     {Value : time},
     {Value : timeUnit},

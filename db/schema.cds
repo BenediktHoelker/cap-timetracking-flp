@@ -17,6 +17,7 @@ entity Records : cuid, managed {
                     on invoiceItem.record = $self        @title :             '{i18n>Records.invoiceItem}';
   projectMember : Association to one EmployeesToProjects @title :             '{i18n>Records.projectMember}';
   employee      : Association to one Employees           @title :             '{i18n>Records.employee}';
+  project       : Association to one Projects            @title :             '{i18n>Records.employee}';
 }
 
 @cds.odata.valuelist
