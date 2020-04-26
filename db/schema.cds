@@ -6,23 +6,25 @@ using {
 } from '@sap/cds/common';
 
 entity Records : cuid, managed {
-  title         : String                                 @title :            '{i18n>Records.title}';
-  description   : String                                 @title :            '{i18n>Records.description}';
-  time          : Decimal(4, 2)                          @title :            '{i18n>Records.time}';
-  timeUnit      : String default 'h'                     @readonly  @title : '{i18n>Records.timeUnit}';
-  date          : Date                                   @title :            '{i18n>Records.date}';
-  status        : Association to RecordStatus            @title :            '{i18n>Records.status}';
+  title         : String                                 @mandatory  @title : '{i18n>Records.title}';
+  description   : String                                 @title :             '{i18n>Records.description}';
+  time          : Decimal(4, 2)                          @mandatory  @title : '{i18n>Records.time}';
+  timeUnit      : String default 'h'                     @readonly  @title  : '{i18n>Records.timeUnit}';
+  date          : Date                                   @mandatory  @title : '{i18n>Records.date}';
+  status        : String                                 @title :             '{i18n>Records.status}';
+  username      : String                                 @title :             '{i18n>Records.username}';
   invoiceItem   : Association to one InvoiceItems
-                    on invoiceItem.record = $self        @title :            '{i18n>Records.invoiceItem}';
-  projectMember : Association to one EmployeesToProjects @title :            '{i18n>Records.projectMember}';
-  employee      : Association to one Employees           @title :            '{i18n>Records.employee}';
+                    on invoiceItem.record = $self        @title :             '{i18n>Records.invoiceItem}';
+  projectMember : Association to one EmployeesToProjects @title :             '{i18n>Records.projectMember}';
+  employee      : Association to one Employees           @title :             '{i18n>Records.employee}';
+  project       : Association to one Projects            @title :             '{i18n>Records.employee}';
 }
 
 @cds.odata.valuelist
 @cds.autoexpose
 entity RecordStatus {
-  key status : String @title : '{i18n>RecordStatus.key}';
-      title  : String @title : '{i18n>RecordStatus.title}';
+  key ID   : String @title : '{i18n>RecordStatus.key}';
+      text : String @title : '{i18n>RecordStatus.title}';
 }
 
 entity Projects : cuid, managed {
@@ -40,16 +42,16 @@ entity Projects : cuid, managed {
 }
 
 entity Employees : cuid, managed {
-  name          : String  @title : '{i18n>Employees.name}';
-  username      : String  @title : '{i18n>Employees.username}';
-  projectsCount : Integer @title : '{i18n>Employees.projectsCount}';
-  recordsCount  : Integer @title : '{i18n>Employees.recordsCount}';
-  daysOfTravel  : Integer @title : '{i18n>Employees.daysOfTravel}';
-  daysOfLeave   : Integer @title : '{i18n>Employees.daysOfLeave}';
-  billingTime   : Integer @title : '{i18n>Employees.billingTime}';
-  bonus         : Integer @title : '{i18n>Employees.bonus}';
+  username      : String  @mandatory  @title : '{i18n>Employees.username}';
+  name          : String  @mandatory  @title : '{i18n>Employees.name}';
+  projectsCount : Integer @title :             '{i18n>Employees.projectsCount}';
+  recordsCount  : Integer @title :             '{i18n>Employees.recordsCount}';
+  daysOfTravel  : Integer @title :             '{i18n>Employees.daysOfTravel}';
+  daysOfLeave   : Integer @title :             '{i18n>Employees.daysOfLeave}';
+  billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
+  bonus         : Integer @title :             '{i18n>Employees.bonus}';
   manager       : Association to one Employees;
-  @title                         : '{i18n>Employees.manager}'
+  @title                         :             '{i18n>Employees.manager}'
   travels       : Association to many Travels
                     on travels.employee = $self;
   travelAggr    : Association to one TravelAggregations
@@ -124,8 +126,8 @@ entity Leaves : cuid, managed {
 @cds.odata.valuelist
 @cds.autoexpose
 entity LeaveStatus {
-  key status : String @title : '{i18n>LeaveStatus.key}';
-      title  : String @title : '{i18n>LeaveStatus.title}';
+  key ID   : String @title : '{i18n>LeaveStatus.key}';
+      text : String @title : '{i18n>LeaveStatus.title}';
 }
 
 @cds.autoexpose

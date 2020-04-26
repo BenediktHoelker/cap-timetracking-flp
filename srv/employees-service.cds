@@ -6,7 +6,8 @@ service EmployeesService {
     {
         grant : [
             'READ',
-            'WRITE'
+            'WRITE',
+            'CREATE'
         ],
         to    : 'admin'
     },
