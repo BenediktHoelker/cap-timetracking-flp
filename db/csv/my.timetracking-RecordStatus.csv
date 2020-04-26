@@ -1,4 +1,3 @@
-ID;text;editable
-c567cd98-e988-4d05-9116-c62dbf4b76df;Erfasst;true
-06b81a54-8318-4c27-b98c-8f7987d4dedb;In Rechnung gestellt;false
-62c9c5b8-6fbf-4782-8da3-b3a1394ca90c;Abgerechnet;false
+status;title
+INITIAL;Initial
+BILLED;Billed

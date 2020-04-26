@@ -177,16 +177,20 @@ annotate my.Leaves with @(UI : {
         Target : '@UI.FieldGroup#Dates'
     }
     ],
-    FieldGroup #General : {Data : [{Value : reason}, ]},
+    FieldGroup #General : {Data : [
+    {Value : reason},
+    {Value : status.title}
+    ]},
     FieldGroup #Dates   : {Data : [
     {Value : dateFrom},
     {Value : dateTo},
-    {Value : daysOfLeave},
+    {Value : daysOfLeave}
     ]},
     LineItem            : [
     {Value : reason},
     {Value : daysOfLeave},
     {Value : dateFrom},
-    {Value : dateTo}
+    {Value : dateTo},
+    {Value : status.title},
     ]
 });

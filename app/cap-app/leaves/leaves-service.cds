@@ -4,7 +4,7 @@ annotate my.Leaves with @(UI : {
     FieldGroup #General : {Data : [
     {Value : employee_ID},
     {Value : reason},
-    {Value : status},
+    {Value : status_status}
     ]},
     UI                  : {LineItem : [
     {Value : employee.name},
@@ -12,11 +12,9 @@ annotate my.Leaves with @(UI : {
     {Value : dateFrom},
     {Value : dateTo},
     {Value : daysOfLeave},
-    {Value : status},
-    ]},
-});
-
-annotate my.Leaves with {
+    {Value : status.title}
+    ]}
+}) {
     ID       @UI.Hidden;
     employee @(
         Common    : {
@@ -24,5 +22,9 @@ annotate my.Leaves with {
             FieldControl : #Mandatory
         },
         ValueList : {entity : 'Employees'}
-    );
+    )
+};
+
+annotate my.LeaveStatus with {
+    status @UI.Hidden;
 }

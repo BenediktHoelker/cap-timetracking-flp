@@ -11,11 +11,18 @@ entity Records : cuid, managed {
   time          : Decimal(4, 2)                          @title :            '{i18n>Records.time}';
   timeUnit      : String default 'h'                     @readonly  @title : '{i18n>Records.timeUnit}';
   date          : Date                                   @title :            '{i18n>Records.date}';
-  status        : String default 'INITIAL'               @title :            '{i18n>Records.status}';
+  status        : Association to RecordStatus            @title :            '{i18n>Records.status}';
   invoiceItem   : Association to one InvoiceItems
                     on invoiceItem.record = $self        @title :            '{i18n>Records.invoiceItem}';
   projectMember : Association to one EmployeesToProjects @title :            '{i18n>Records.projectMember}';
   employee      : Association to one Employees           @title :            '{i18n>Records.employee}';
+}
+
+@cds.odata.valuelist
+@cds.autoexpose
+entity RecordStatus {
+  key status : String @title : '{i18n>RecordStatus.key}';
+      title  : String @title : '{i18n>RecordStatus.title}';
 }
 
 entity Projects : cuid, managed {
@@ -93,6 +100,7 @@ entity Travels : cuid, managed {
   employee      : Association to one Employees @title    :          '{i18n>Travels.employee}';
 }
 
+@cds.autoexpose
 entity TravelAggregations as
   select from Travels {
     key employee,
@@ -108,10 +116,18 @@ entity Leaves : cuid, managed {
   dateFrom    : Date                         @mandatory  @title : '{i18n>Leaves.dateFrom}';
   dateTo      : Date                         @title :             '{i18n>Leaves.dateTo}';
   daysOfLeave : Integer                      @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
-  status      : String default 'INITIAL'     @title :             '{i18n>Leaves.status}';
+  status      : Association to LeaveStatus   @title :             '{i18n>Leaves.status}';
   employee    : Association to one Employees @title :             '{i18n>Leaves.employee}';
 }
 
+@cds.odata.valuelist
+@cds.autoexpose
+entity LeaveStatus {
+  key status : String @title : '{i18n>LeaveStatus.key}';
+      title  : String @title : '{i18n>LeaveStatus.title}';
+}
+
+@cds.autoexpose
 entity LeaveAggregations  as
   select from Leaves {
     key employee,
