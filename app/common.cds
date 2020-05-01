@@ -39,9 +39,40 @@ annotate my.Records with @(UI : {
     ID            @UI.Hidden;
     description   @UI.MultiLineText;
     projectMember @(Common : {
-        Text             : projectMember.projectMember,
-        FieldControl     : #Mandatory,
-        ValueList.entity : 'ProjectMembers'
+        Text         : projectMember.title,
+        FieldControl : #Mandatory,
+        ValueList    : {
+            entity     : 'ProjectMembers',
+            Parameters : [
+            {
+                $Type             : 'Common.ValueListParameterFilterOnly',
+                LocalDataProperty : 'employee_ID',
+                ValueListProperty : 'employee_ID'
+            },
+            {
+                $Type             : 'Common.ValueListParameterDisplayOnly',
+                ValueListProperty : 'projectMember'
+            }
+            ]
+        },
+    });
+    employee      @(Common : {
+        Text         : employee.name,
+        FieldControl : #Mandatory,
+        ValueList    : {
+            entity     : 'Employees',
+            Parameters : [
+            {
+                $Type             : 'Common.ValueListParameterInOut',
+                LocalDataProperty : 'employee_ID',
+                ValueListProperty : 'ID'
+            },
+            {
+                $Type             : 'Common.ValueListParameterDisplayOnly',
+                ValueListProperty : 'name'
+            }
+            ]
+        }
     });
 }
 
@@ -94,7 +125,9 @@ annotate my.Employees with @(UI : {
     {Value : leaveAggr.daysOfLeave},
     {Value : travelAggr.daysOfTravel}
     ]
-});
+}) {
+    ID @UI.Hidden;
+};
 
 annotate my.Customers with @(UI : {
     HeaderInfo      : {
@@ -108,9 +141,7 @@ annotate my.Customers with @(UI : {
     {Value : name},
     {Value : projectsCount}
     ]
-});
-
-annotate my.Customers with {
+}) {
     ID @UI.Hidden;
 }
 
@@ -118,12 +149,12 @@ annotate my.ProjectMembers with @(UI : {
     HeaderInfo          : {
         TypeName       : '{i18n>ProjectMember}',
         TypeNamePlural : '{i18n>ProjectMembers}',
-        Title          : {Value : projectMember}
+        Title          : {Value : name}
     },
-    Identification      : [{Value : projectMember}],
-    SelectionFields     : [projectMember],
+    Identification      : [{Value : name}],
+    SelectionFields     : [name],
     LineItem            : [{
-        Value : projectMember,
+        Value : name,
         Label : '{i18n>Project}'
     }],
     Facets              : [{
@@ -135,11 +166,10 @@ annotate my.ProjectMembers with @(UI : {
     {Value : project_ID},
     {Value : employee_ID}
     ]}
-});
-
-annotate my.ProjectMembers with {
-    ID       @UI.Hidden;
-    project  @(
+}) {
+    ID          @UI.Hidden;
+    employee_ID @UI.Hidden;
+    project     @(
         Common    : {
             Text         : title,
             FieldControl : #Mandatory
@@ -147,7 +177,7 @@ annotate my.ProjectMembers with {
         ValueList : {entity : 'Projects'},
         title     : '{i18n>Project}'
     );
-    employee @(
+    employee    @(
         Common    : {
             Text         : name,
             FieldControl : #Mandatory

@@ -17,7 +17,21 @@ service RecordsService {
     };
 
     entity Projects     as projection on my.Projects
-    entity Employees    as projection on my.Employees
+
+    entity Employees @(restrict : [
+    {
+        grant : [
+            'READ',
+            'WRITE'
+        ],
+        to    : 'admin'
+    },
+    {
+        grant : 'READ',
+        where : 'username = $user'
+    }
+    ])                  as projection on my.Employees
+
     entity Packages     as projection on my.Packages;
     entity Customers    as projection on my.Customers;
     entity Invoices     as projection on my.Invoices;
@@ -35,6 +49,6 @@ service RecordsService {
     {
         grant : 'READ',
         where : 'username = $user'
-    },
+    }
     ])                  as projection on my.ProjectMembers;
 }

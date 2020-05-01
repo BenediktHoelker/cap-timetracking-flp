@@ -16,6 +16,7 @@ annotate my.Records with @(UI : {
     FieldGroup #General : {Data : [
     {Value : title},
     {Value : description},
+    {Value : employee_ID},
     {Value : projectMember_ID},
     {Value : date},
     {Value : time},

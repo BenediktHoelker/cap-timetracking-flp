@@ -6,18 +6,18 @@ using {
 } from '@sap/cds/common';
 
 entity Records : cuid, managed {
-  title         : String                                 @mandatory  @title : '{i18n>Records.title}';
-  description   : String                                 @title :             '{i18n>Records.description}';
-  time          : Decimal(4, 2)                          @mandatory  @title : '{i18n>Records.time}';
-  timeUnit      : String default 'h'                     @readonly  @title  : '{i18n>Records.timeUnit}';
-  date          : Date                                   @mandatory  @title : '{i18n>Records.date}';
-  status        : String                                 @title :             '{i18n>Records.status}';
-  username      : String                                 @title :             '{i18n>Records.username}';
-  invoiceItem   : Association to one InvoiceItems
-                    on invoiceItem.record = $self        @title :             '{i18n>Records.invoiceItem}';
-  projectMember : Association to one EmployeesToProjects @title :             '{i18n>Records.projectMember}';
-  employee      : Association to one Employees           @title :             '{i18n>Records.employee}';
-  project       : Association to one Projects            @title :             '{i18n>Records.employee}';
+  title         : String                             @mandatory  @title : '{i18n>Records.title}';
+  description   : String                             @title :             '{i18n>Records.description}';
+  time          : Decimal(4, 2)                      @mandatory  @title : '{i18n>Records.time}';
+  timeUnit      : String default 'h'                 @readonly  @title  : '{i18n>Records.timeUnit}';
+  date          : Date                               @mandatory  @title : '{i18n>Records.date}';
+  status        : String                             @title :             '{i18n>Records.status}';
+  username      : String                             @title :             '{i18n>Records.username}';
+  invoiceItem   : Association to InvoiceItems
+                    on invoiceItem.record = $self    @title :             '{i18n>Records.invoiceItem}';
+  projectMember : Association to EmployeesToProjects @title :             '{i18n>Records.projectMember}';
+  employee      : Association to Employees           @title :             '{i18n>Records.employee}';
+  project       : Association to Projects            @title :             '{i18n>Records.employee}';
 }
 
 @cds.odata.valuelist
@@ -28,13 +28,13 @@ entity RecordStatus {
 }
 
 entity Projects : cuid, managed {
-  title         : String                       @title : '{i18n>Projects.title}';
-  description   : String                       @title : '{i18n>Projects.description}';
-  billingFactor : Decimal(5, 2)                @title : '{i18n>Projects.billingFactor}';
-  recordsCount  : Integer                      @title : '{i18n>Projects.recordsCount}';
-  totalTime     : Integer                      @title : '{i18n>Projects.totalTime}';
-  customer      : Association to one Customers @title : '{i18n>Projects.customer}';
-  manager       : Association to one Employees @title : '{i18n>Projects.manager}';
+  title         : String                   @title : '{i18n>Projects.title}';
+  description   : String                   @title : '{i18n>Projects.description}';
+  billingFactor : Decimal(5, 2)            @title : '{i18n>Projects.billingFactor}';
+  recordsCount  : Integer                  @title : '{i18n>Projects.recordsCount}';
+  totalTime     : Integer                  @title : '{i18n>Projects.totalTime}';
+  customer      : Association to Customers @title : '{i18n>Projects.customer}';
+  manager       : Association to Employees @title : '{i18n>Projects.manager}';
   packages      : Association to many Packages
                     on packages.project = $self;
   members       : Composition of many EmployeesToProjects
@@ -50,7 +50,7 @@ entity Employees : cuid, managed {
   daysOfLeave   : Integer @title :             '{i18n>Employees.daysOfLeave}';
   billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
   bonus         : Integer @title :             '{i18n>Employees.bonus}';
-  manager       : Association to one Employees;
+  manager       : Association to Employees;
   @title                         :             '{i18n>Employees.manager}'
   travels       : Association to many Travels
                     on travels.employee = $self;
@@ -67,12 +67,12 @@ entity Employees : cuid, managed {
 }
 
 entity EmployeesToProjects : cuid, managed {
-  title         : String                       @title : '{i18n>EmployeesToProjects.title}';
-  username      : String                       @title : '{i18n>EmployeesToProjects.username}';
-  name          : String                       @title : '{i18n>EmployeesToProjects.name}';
-  projectMember : String                       @title : '{i18n>EmployeesToProjects.projectMember}';
-  project       : Association to one Projects  @title : '{i18n>EmployeesToProjects.project}';
-  employee      : Association to one Employees @title : '{i18n>EmployeesToProjects.employee}';
+  title         : String                   @title : '{i18n>EmployeesToProjects.title}';
+  username      : String                   @title : '{i18n>EmployeesToProjects.username}';
+  name          : String                   @title : '{i18n>EmployeesToProjects.name}';
+  projectMember : String                   @title : '{i18n>EmployeesToProjects.projectMember}';
+  project       : Association to Projects  @title : '{i18n>EmployeesToProjects.project}';
+  employee      : Association to Employees @title : '{i18n>EmployeesToProjects.employee}';
   records       : Association to many Records
                     on records.projectMember = $self;
 }
@@ -87,20 +87,20 @@ entity Customers : cuid, managed {
 }
 
 entity Packages : cuid, managed {
-  title       : String                      @title : '{i18n>Packages.title}';
-  description : String                      @title : '{i18n>Packages.description}';
-  project     : Association to one Projects @title : '{i18n>Packages.project}';
+  title       : String                  @title : '{i18n>Packages.title}';
+  description : String                  @title : '{i18n>Packages.description}';
+  project     : Association to Projects @title : '{i18n>Packages.project}';
 }
 
 entity Travels : cuid, managed {
-  daysOfTravel  : Integer                      @readonly  @title  : '{i18n>Travels.daysOfTravel}';
-  dateFrom      : Date                         @mandatory  @title : '{i18n>Travels.dateFrom}';
-  dateTo        : Date                         @title    :          '{i18n>Travels.dateTo}';
-  journey       : Decimal(4, 2)                @Measures :          durationUnit  @mandatory  @title : '{i18n>Travels.journey}';
-  returnJourney : Decimal(4, 2)                @mandatory  @title : '{i18n>Travels.returnJourney}';
-  durationUnit  : String default 'h'           @readonly  @title  : '{i18n>Travels.durationUnit}';
-  project       : Association to one Projects  @title    :          '{i18n>Travels.project}';
-  employee      : Association to one Employees @title    :          '{i18n>Travels.employee}';
+  daysOfTravel  : Integer                  @readonly  @title  : '{i18n>Travels.daysOfTravel}';
+  dateFrom      : Date                     @mandatory  @title : '{i18n>Travels.dateFrom}';
+  dateTo        : Date                     @title    :          '{i18n>Travels.dateTo}';
+  journey       : Decimal(4, 2)            @Measures :          durationUnit  @mandatory  @title : '{i18n>Travels.journey}';
+  returnJourney : Decimal(4, 2)            @mandatory  @title : '{i18n>Travels.returnJourney}';
+  durationUnit  : String default 'h'       @readonly  @title  : '{i18n>Travels.durationUnit}';
+  project       : Association to Projects  @title    :          '{i18n>Travels.project}';
+  employee      : Association to Employees @title    :          '{i18n>Travels.employee}';
 }
 
 @cds.autoexpose
@@ -115,13 +115,13 @@ entity TravelAggregations as
     employee;
 
 entity Leaves : cuid, managed {
-  reason      : String                       @title :             '{i18n>Leaves.reason}';
-  dateFrom    : Date                         @mandatory  @title : '{i18n>Leaves.dateFrom}';
-  dateTo      : Date                         @title :             '{i18n>Leaves.dateTo}';
-  daysOfLeave : Integer                      @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
-  username    : String                       @title :             '{i18n>Leaves.username}';
-  status      : Association to LeaveStatus   @title :             '{i18n>Leaves.status}';
-  employee    : Association to one Employees @title :             '{i18n>Leaves.employee}';
+  reason      : String                     @title :             '{i18n>Leaves.reason}';
+  dateFrom    : Date                       @mandatory  @title : '{i18n>Leaves.dateFrom}';
+  dateTo      : Date                       @title :             '{i18n>Leaves.dateTo}';
+  daysOfLeave : Integer                    @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
+  username    : String                     @title :             '{i18n>Leaves.username}';
+  status      : Association to LeaveStatus @title :             '{i18n>Leaves.status}';
+  employee    : Association to Employees   @title :             '{i18n>Leaves.employee}';
 }
 
 @cds.odata.valuelist
@@ -158,16 +158,16 @@ view CustomersView as
     Customers.name;
 
 entity Invoices : cuid, managed {
-  title       : String                       @title : '{i18n>Invoices.title}';
-  description : String                       @title : '{i18n>Invoices.description}';
-  customer    : Association to one Customers @title : '{i18n>Invoices.customer}';
+  title       : String                   @title : '{i18n>Invoices.title}';
+  description : String                   @title : '{i18n>Invoices.description}';
+  customer    : Association to Customers @title : '{i18n>Invoices.customer}';
   items       : Composition of many InvoiceItems
                   on items.invoice = $self;
 }
 
 entity InvoiceItems : cuid, managed {
-  invoice : Association to one Invoices;
-  record  : Association to one Records;
+  invoice : Association to Invoices;
+  record  : Association to Records;
 }
 
 entity InvoicesView       as
