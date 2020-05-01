@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 module.exports = (srv) => {
   srv.before("UPDATE", "Records", (req) => {
     if (req.data.status_ID !== "INITIAL") {
