@@ -41,8 +41,8 @@ entity Projects : cuid, managed {
                     on members.project = $self;
 }
 
-entity Employees : managed {
-  key ID            : String  @mandatory  @title : '{i18n>Employees.username}';
+entity Employees : cuid, managed {
+  key user          : String  @mandatory  @title : '{i18n>Employees.username}';
       name          : String  @mandatory  @title : '{i18n>Employees.name}';
       projectsCount : Integer @title :             '{i18n>Employees.projectsCount}';
       recordsCount  : Integer @title :             '{i18n>Employees.recordsCount}';

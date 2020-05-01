@@ -1,7 +1,11 @@
 /* eslint-disable camelcase */
+const reuse = require("./reuse-functions");
+
 module.exports = (srv) => {
-  srv.before("NEW", "Leaves", (req) => {
-    req.data.employee_ID = req.user.id;
+  srv.before("NEW", "Leaves", async (req) => {
+    const employee = await reuse.getEmployeeFromRequestUser(req);
+
+    req.data.employee_ID = employee.ID;
     req.data.status_ID = "INITIAL";
     req.data.dateFrom = formatDate(Date.now());
   });

@@ -1,4 +1,6 @@
 /* eslint-disable camelcase */
+const reuse = require("./reuse-functions");
+
 module.exports = (srv) => {
   srv.before("UPDATE", "Records", (req) => {
     if (req.data.status_ID !== "INITIAL") {
@@ -9,7 +11,9 @@ module.exports = (srv) => {
     }
   });
 
-  srv.before("NEW", "Records", (req) => {
-    req.data.employee_ID = req.user.id;
+  srv.before("NEW", "Records", async (req) => {
+    const employee = await reuse.getEmployeeFromRequestUser(req);
+
+    req.data.employee_ID = employee.ID;
   });
 };
