@@ -118,6 +118,7 @@ annotate my.Employees with @(UI : {
     SelectionFields : [name],
     LineItem        : [
     {Value : name},
+    {Value : username},
     {Value : recordsCount},
     {Value : billingTime},
     {Value : bonus},

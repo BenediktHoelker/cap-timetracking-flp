@@ -28,7 +28,7 @@
     },
     "auth": {
         "passport": {
-            "strategy": "mock"
+            "strategy": "JWT"
         }
     }
 }

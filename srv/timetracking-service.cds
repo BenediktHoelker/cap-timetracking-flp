@@ -52,6 +52,7 @@ service TimetrackingService {
         select from my.Employees {
             ID,
             name,
+            username,
             createdAt,
             createdBy,
             modifiedAt,
@@ -87,6 +88,7 @@ service TimetrackingService {
             Employees.modifiedAt,
             Employees.modifiedBy,
             Employees.name,
+            Employees.username,
             Employees.manager,
             Employees.daysOfLeave,
             Employees.daysOfTravel;

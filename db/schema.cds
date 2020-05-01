@@ -42,28 +42,28 @@ entity Projects : cuid, managed {
 }
 
 entity Employees : cuid, managed {
-  key user          : String  @mandatory  @title : '{i18n>Employees.username}';
-      name          : String  @mandatory  @title : '{i18n>Employees.name}';
-      projectsCount : Integer @title :             '{i18n>Employees.projectsCount}';
-      recordsCount  : Integer @title :             '{i18n>Employees.recordsCount}';
-      daysOfTravel  : Integer @title :             '{i18n>Employees.daysOfTravel}';
-      daysOfLeave   : Integer @title :             '{i18n>Employees.daysOfLeave}';
-      billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
-      bonus         : Integer @title :             '{i18n>Employees.bonus}';
-      manager       : Association to Employees;
-      @title                         :             '{i18n>Employees.manager}'
-      travels       : Association to many Travels
-                        on travels.employee = $self;
-      travelAggr    : Association to one TravelAggregations
-                        on travelAggr.employee = $self;
-      leaves        : Association to many Leaves
-                        on leaves.employee = $self;
-      leaveAggr     : Association to one LeaveAggregations
-                        on leaveAggr.employee = $self;
-      projects      : Composition of many EmployeesToProjects
-                        on projects.employee = $self;
-      records       : Association to many Records
-                        on records.employee = $self;
+  username      : String  @mandatory  @title : '{i18n>Employees.username}';
+  name          : String  @mandatory  @title : '{i18n>Employees.name}';
+  projectsCount : Integer @title :             '{i18n>Employees.projectsCount}';
+  recordsCount  : Integer @title :             '{i18n>Employees.recordsCount}';
+  daysOfTravel  : Integer @title :             '{i18n>Employees.daysOfTravel}';
+  daysOfLeave   : Integer @title :             '{i18n>Employees.daysOfLeave}';
+  billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
+  bonus         : Integer @title :             '{i18n>Employees.bonus}';
+  manager       : Association to Employees;
+  @title                         :             '{i18n>Employees.manager}'
+  travels       : Association to many Travels
+                    on travels.employee = $self;
+  travelAggr    : Association to one TravelAggregations
+                    on travelAggr.employee = $self;
+  leaves        : Association to many Leaves
+                    on leaves.employee = $self;
+  leaveAggr     : Association to one LeaveAggregations
+                    on leaveAggr.employee = $self;
+  projects      : Composition of many EmployeesToProjects
+                    on projects.employee = $self;
+  records       : Association to many Records
+                    on records.employee = $self;
 }
 
 entity EmployeesToProjects : cuid, managed {

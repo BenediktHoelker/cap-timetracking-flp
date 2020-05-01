@@ -3,7 +3,7 @@ const reuse = require("./reuse-functions");
 
 module.exports = (srv) => {
   srv.before("UPDATE", "Records", (req) => {
-    if (req.data.status_ID !== "INITIAL") {
+    if (req.data.status !== "INITIAL") {
       req.error(
         410,
         "The record has already been billed => Editing ist not allowed."
