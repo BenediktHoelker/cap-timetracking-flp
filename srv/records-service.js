@@ -9,6 +9,6 @@ module.exports = (srv) => {
   });
 
   srv.before("NEW", "Records", (req) => {
-    req.data.employee_ID = "9f5f70eb-3343-48e7-a643-2829096ca544";
+    req.data.employee_ID = req.user.id;
   });
 };
