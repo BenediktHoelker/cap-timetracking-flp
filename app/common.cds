@@ -15,19 +15,18 @@ annotate my.Records with @(UI : {
     SelectionFields : [
     title,
     description,
-    projectMember.title,
-    projectMember.name,
+    project.title,
+    employee.name,
     date
     ],
     LineItem        : [
     {Value : title},
-    {Value : username},
     {
-        Value : projectMember.title,
+        Value : project.title,
         Label : '{i18n>Project}'
     },
     {
-        Value : projectMember.name,
+        Value : employee.name,
         Label : '{i18n>Employee}'
     },
     {Value : description},
@@ -119,7 +118,6 @@ annotate my.Employees with @(UI : {
     SelectionFields : [name],
     LineItem        : [
     {Value : name},
-    {Value : username},
     {Value : recordsCount},
     {Value : billingTime},
     {Value : bonus},

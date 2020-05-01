@@ -25,7 +25,6 @@ annotate my.Employees with @(UI : {
     ],
     FieldGroup #General : {Data : [
     {Value : name},
-    {Value : username},
     {
         Value : manager_ID,
         Label : '{i18n>Manager}'

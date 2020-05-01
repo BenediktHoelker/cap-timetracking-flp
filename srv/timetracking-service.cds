@@ -4,7 +4,6 @@ service TimetrackingService {
     entity Records            as
         select from my.Records {
             *,
-            projectMember.employee.username as username @readonly,
             case
                 when
                     invoiceItem.ID is null
@@ -12,7 +11,7 @@ service TimetrackingService {
                     'INITIAL'
                 else
                     'BILLED'
-            end                             as status   @(title : '{i18n>Records.status}') : String
+            end as status @(title : '{i18n>Records.status}') : String
         }
         order by
             Records.createdAt desc;
@@ -24,19 +23,18 @@ service TimetrackingService {
                 description,
                 billingFactor,
                 count(
-                    members.records.ID
-                )                as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
+                    records.ID
+                ) as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
                 sum(
-                    members.records.time
-                )                as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
+                    records.time
+                ) as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
                 createdAt,
                 createdBy,
                 modifiedAt,
                 modifiedBy,
                 customer,
                 manager,
-                manager.username as managerUserName,
-                members                                                                    : redirected to ProjectMembers
+                members                                                     : redirected to ProjectMembers
         }
         group by
             Projects.ID,
@@ -48,13 +46,11 @@ service TimetrackingService {
             Projects.modifiedBy,
             Projects.billingFactor,
             Projects.manager,
-            Projects.manager.username,
             Projects.customer;
 
     entity Employees          as
         select from my.Employees {
             ID,
-            username,
             name,
             createdAt,
             createdBy,
@@ -64,21 +60,21 @@ service TimetrackingService {
             daysOfTravel,
             round(
                 sum(
-                    projects.records.time
+                    records.time
                 ), 2
             ) as billingTime  @(title : '{i18n>Employees.billingTime}')  : Double,
             count(
-                projects.records.ID
+                records.ID
             ) as recordsCount @(title : '{i18n>Employees.recordsCount}') : Integer,
             round(
                 sum(
                     (
-                        projects.records.time
+                        records.time
                     ) / 1440
                 ), 2
             ) as bonus        @(title : '{i18n>Employees.bonus}')        : Double,
             manager,
-            projects                                                     : redirected to ProjectMembers,
+            projects,
             travels                                                      : redirected to Travels,
             travelAggr,
             leaves                                                       : redirected to Leaves,
@@ -90,7 +86,6 @@ service TimetrackingService {
             Employees.createdBy,
             Employees.modifiedAt,
             Employees.modifiedBy,
-            Employees.username,
             Employees.name,
             Employees.manager,
             Employees.daysOfLeave,
@@ -122,12 +117,7 @@ service TimetrackingService {
         * , invoice : redirected to Invoices
     };
 
-    entity Leaves             as
-        select from my.Leaves {
-            *,
-            employee.username
-        };
-
+    entity Leaves             as projection on my.Leaves;
     entity LeaveAggregations  as projection on my.LeaveAggregations;
     entity Travels            as projection on my.Travels;
     entity TravelAggregations as projection on my.TravelAggregations;
@@ -137,8 +127,6 @@ service TimetrackingService {
         select from my.EmployeesToProjects {
             *,
             project.title,
-            project.title || ' - ' || employee.name as projectMember @(title : '{i18n>ProjectMembers.projectMember}') : String,
-            employee.name,
-            employee.username
+            employee.name
         };
 }

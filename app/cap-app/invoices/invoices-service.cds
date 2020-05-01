@@ -60,11 +60,11 @@ annotate my.InvoiceItems with @(UI : {
     {Value : record.title},
     {Value : record.description},
     {
-        Value : record.projectMember.title,
+        Value : record.project.title,
         Label : '{i18n>Invoices.project}'
     },
     {
-        Value : record.projectMember.name,
+        Value : record.employee.name,
         Label : '{i18n>Invoices.employee}'
     }
     ]

@@ -6,18 +6,16 @@ using {
 } from '@sap/cds/common';
 
 entity Records : cuid, managed {
-  title         : String                             @mandatory  @title : '{i18n>Records.title}';
-  description   : String                             @title :             '{i18n>Records.description}';
-  time          : Decimal(4, 2)                      @mandatory  @title : '{i18n>Records.time}';
-  timeUnit      : String default 'h'                 @readonly  @title  : '{i18n>Records.timeUnit}';
-  date          : Date                               @mandatory  @title : '{i18n>Records.date}';
-  status        : String                             @title :             '{i18n>Records.status}';
-  username      : String                             @title :             '{i18n>Records.username}';
-  invoiceItem   : Association to InvoiceItems
-                    on invoiceItem.record = $self    @title :             '{i18n>Records.invoiceItem}';
-  projectMember : Association to EmployeesToProjects @title :             '{i18n>Records.projectMember}';
-  employee      : Association to Employees           @title :             '{i18n>Records.employee}';
-  project       : Association to Projects            @title :             '{i18n>Records.employee}';
+  title       : String                          @mandatory  @title : '{i18n>Records.title}';
+  description : String                          @title :             '{i18n>Records.description}';
+  time        : Decimal(4, 2)                   @mandatory  @title : '{i18n>Records.time}';
+  timeUnit    : String default 'h'              @readonly  @title  : '{i18n>Records.timeUnit}';
+  date        : Date                            @mandatory  @title : '{i18n>Records.date}';
+  status      : String                          @title :             '{i18n>Records.status}';
+  invoiceItem : Association to InvoiceItems
+                  on invoiceItem.record = $self @title :             '{i18n>Records.invoiceItem}';
+  employee    : Association to Employees        @title :             '{i18n>Records.employee}';
+  project     : Association to Projects         @title :             '{i18n>Records.project}';
 }
 
 @cds.odata.valuelist
@@ -37,6 +35,8 @@ entity Projects : cuid, managed {
   manager       : Association to Employees @title : '{i18n>Projects.manager}';
   packages      : Association to many Packages
                     on packages.project = $self;
+  records       : Association to many Records
+                    on records.project = $self;
   members       : Composition of many EmployeesToProjects
                     on members.project = $self;
 }
@@ -44,7 +44,6 @@ entity Projects : cuid, managed {
 entity Employees : managed {
   key ID            : String  @mandatory  @title : '{i18n>Employees.username}';
       name          : String  @mandatory  @title : '{i18n>Employees.name}';
-      username      : String  @title :             '{i18n>Employees.username}';
       projectsCount : Integer @title :             '{i18n>Employees.projectsCount}';
       recordsCount  : Integer @title :             '{i18n>Employees.recordsCount}';
       daysOfTravel  : Integer @title :             '{i18n>Employees.daysOfTravel}';
@@ -68,14 +67,10 @@ entity Employees : managed {
 }
 
 entity EmployeesToProjects : cuid, managed {
-  title         : String                   @title : '{i18n>EmployeesToProjects.title}';
-  username      : String                   @title : '{i18n>EmployeesToProjects.username}';
-  name          : String                   @title : '{i18n>EmployeesToProjects.name}';
-  projectMember : String                   @title : '{i18n>EmployeesToProjects.projectMember}';
-  project       : Association to Projects  @title : '{i18n>EmployeesToProjects.project}';
-  employee      : Association to Employees @title : '{i18n>EmployeesToProjects.employee}';
-  records       : Association to many Records
-                    on records.projectMember = $self;
+  title    : String                   @title : '{i18n>EmployeesToProjects.title}';
+  name     : String                   @title : '{i18n>EmployeesToProjects.name}';
+  project  : Association to Projects  @title : '{i18n>EmployeesToProjects.project}';
+  employee : Association to Employees @title : '{i18n>EmployeesToProjects.employee}';
 }
 
 entity Customers : cuid, managed {
@@ -120,7 +115,6 @@ entity Leaves : cuid, managed {
   dateFrom    : Date                       @mandatory  @title : '{i18n>Leaves.dateFrom}';
   dateTo      : Date                       @title :             '{i18n>Leaves.dateTo}';
   daysOfLeave : Integer                    @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
-  username    : String                     @title :             '{i18n>Leaves.username}';
   status      : Association to LeaveStatus @title :             '{i18n>Leaves.status}';
   employee    : Association to Employees   @title :             '{i18n>Leaves.employee}';
 }
