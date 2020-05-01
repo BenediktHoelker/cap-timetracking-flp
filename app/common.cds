@@ -36,27 +36,32 @@ annotate my.Records with @(UI : {
     {Value : status},
     ]
 }) {
-    ID            @UI.Hidden;
-    description   @UI.MultiLineText;
-    projectMember @(Common : {
-        Text         : projectMember.title,
+    ID          @UI.Hidden;
+    description @UI.MultiLineText;
+    project     @(Common : {
+        Text         : project.title,
         FieldControl : #Mandatory,
         ValueList    : {
             entity     : 'ProjectMembers',
             Parameters : [
             {
-                $Type             : 'Common.ValueListParameterFilterOnly',
+                $Type             : 'Common.ValueListParameterIn',
                 LocalDataProperty : 'employee_ID',
                 ValueListProperty : 'employee_ID'
             },
             {
+                $Type             : 'Common.ValueListParameterInOut',
+                ValueListProperty : 'project_ID',
+                LocalDataProperty : 'project_ID',
+            },
+            {
                 $Type             : 'Common.ValueListParameterDisplayOnly',
-                ValueListProperty : 'projectMember'
+                ValueListProperty : 'title',
             }
             ]
         },
     });
-    employee      @(Common : {
+    employee    @(Common : {
         Text         : employee.name,
         FieldControl : #Mandatory,
         ValueList    : {
@@ -149,12 +154,12 @@ annotate my.ProjectMembers with @(UI : {
     HeaderInfo          : {
         TypeName       : '{i18n>ProjectMember}',
         TypeNamePlural : '{i18n>ProjectMembers}',
-        Title          : {Value : name}
+        Title          : {Value : title}
     },
-    Identification      : [{Value : name}],
-    SelectionFields     : [name],
+    Identification      : [{Value : title}],
+    SelectionFields     : [title],
     LineItem            : [{
-        Value : name,
+        Value : title,
         Label : '{i18n>Project}'
     }],
     Facets              : [{
