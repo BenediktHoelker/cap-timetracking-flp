@@ -1,6 +1,6 @@
 ﻿ID;title;description;billingFactor;customer_id;manager_id
-f5fd604e-ba3c-4944-9569-f54b24f29566;Fiori Store Solutions;PDA Replacement for In-Store Apps;1;c322fe5c-b961-4f52-9e64-b7a394ca3041;
-cb418873-9b89-4b14-868d-1ffffdef25b7;Versandservice-Steuerung;Management der Versanddienstleister;1;0473feac-4f36-467a-b3e1-a6bfa90acd43;
-1acf2d3f-3f65-4a82-bfb3-74d6ee9a3069;Magazin-Integration;Ersetzen des Alt-ERP's durch SAP;1;c567cd98-e988-4d05-9116-c62dbf4b76df;
-55eaf9ab-d4bf-4437-8e51-e270e9b02e81;APAC Integration;Ablösung der ASP400 durch SAP Retail in APAC ;1;c322fe5c-b961-4f52-9e64-b7a394ca3041;
+f5fd604e-ba3c-4944-9569-f54b24f29566;Fiori Store Solutions;PDA Replacement for In-Store Apps;1;c322fe5c-b961-4f52-9e64-b7a394ca3041;a5486094-c9f7-41b7-a663-5c590163a383
+cb418873-9b89-4b14-868d-1ffffdef25b7;Versandservice-Steuerung;Management der Versanddienstleister;1;0473feac-4f36-467a-b3e1-a6bfa90acd43;a5486094-c9f7-41b7-a663-5c590163a383
+1acf2d3f-3f65-4a82-bfb3-74d6ee9a3069;Magazin-Integration;Ersetzen des Alt-ERP's durch SAP;1;c567cd98-e988-4d05-9116-c62dbf4b76df;a5486094-c9f7-41b7-a663-5c590163a383
+55eaf9ab-d4bf-4437-8e51-e270e9b02e81;APAC Integration;Ablösung der ASP400 durch SAP Retail in APAC ;1;c322fe5c-b961-4f52-9e64-b7a394ca3041;a5486094-c9f7-41b7-a663-5c590163a383
 32fead8f-7a8f-419e-a2cf-f2533f161b30;Preisplanung;Fiori Werkzeug zur Abbildung der Preisplanung;1;c567cd98-e988-4d05-9116-c62dbf4b76df;a5486094-c9f7-41b7-a663-5c590163a383

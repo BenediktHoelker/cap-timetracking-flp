@@ -9,7 +9,7 @@ service RecordsService {
     },
     {
         grant : ['READ'],
-        where : 'ID = $user'
+        where : 'username = $user'
     },
     ])                  as projection on my.Records actions {
         // bound actions/functions
@@ -28,7 +28,7 @@ service RecordsService {
     },
     {
         grant : 'READ',
-        where : 'ID = $user'
+        where : 'username = $user'
     }
     ])                  as projection on my.Employees
 
@@ -48,7 +48,7 @@ service RecordsService {
     },
     {
         grant : 'READ',
-        where : 'ID = $user'
+        where : 'username = $user'
     }
     ])                  as projection on my.ProjectMembers;
 }

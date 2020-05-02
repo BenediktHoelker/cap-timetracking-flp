@@ -13,7 +13,7 @@ service EmployeesService {
     },
     {
         grant : 'READ',
-        where : 'ID = $user'
+        where : 'username = $user'
     },
     ])                        as projection on my.Employees;
 

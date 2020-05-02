@@ -220,6 +220,7 @@ annotate my.Leaves with @(UI : {
     ]},
     LineItem            : [
     {Value : reason},
+    {Value : employee.name},
     {Value : daysOfLeave},
     {Value : dateFrom},
     {Value : dateTo},

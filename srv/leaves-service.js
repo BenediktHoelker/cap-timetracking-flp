@@ -7,7 +7,7 @@ module.exports = (srv) => {
 
     req.data.employee_ID = employee.ID;
     req.data.status_ID = "INITIAL";
-    req.data.dateFrom = formatDate(Date.now());
+    req.data.dateFrom = reuse.formatDate(Date.now());
   });
 
   srv.before(["SAVE"], "Leaves", (req) => {
@@ -36,19 +36,4 @@ function getDaysBetween(dateFrom, dateTo) {
   const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
 
   return Number.isInteger(diffDays) ? diffDays : 0;
-}
-
-function formatDate(date) {
-  // https://stackoverflow.com/questions/23593052/format-javascript-date-as-yyyy-mm-dd
-  var d = new Date(date),
-    month = "" + (d.getMonth() + 1),
-    day = "" + d.getDate(),
-    year = d.getFullYear();
-
-  if (month.length < 2) {
-    month = `0${month}`;
-  }
-  if (day.length < 2) day = "0" + day;
-
-  return [year, month, day].join("-");
 }

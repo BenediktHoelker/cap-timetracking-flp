@@ -15,5 +15,6 @@ module.exports = (srv) => {
     const employee = await reuse.getEmployeeFromRequestUser(req);
 
     req.data.employee_ID = employee.ID;
+    req.data.date = reuse.formatDate(Date.now());
   });
 };

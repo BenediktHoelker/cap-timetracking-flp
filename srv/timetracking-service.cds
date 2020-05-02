@@ -4,6 +4,7 @@ service TimetrackingService {
     entity Records            as
         select from my.Records {
             *,
+            employee.username,
             case
                 when
                     invoiceItem.ID is null
@@ -24,17 +25,18 @@ service TimetrackingService {
                 billingFactor,
                 count(
                     records.ID
-                ) as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
+                )                as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
                 sum(
                     records.time
-                ) as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
+                )                as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
                 createdAt,
                 createdBy,
                 modifiedAt,
                 modifiedBy,
                 customer,
                 manager,
-                members                                                     : redirected to ProjectMembers
+                manager.username as managerUserName,
+                members                                                                    : redirected to ProjectMembers
         }
         group by
             Projects.ID,
@@ -46,6 +48,7 @@ service TimetrackingService {
             Projects.modifiedBy,
             Projects.billingFactor,
             Projects.manager,
+            Projects.manager.username,
             Projects.customer;
 
     entity Employees          as
@@ -119,7 +122,10 @@ service TimetrackingService {
         * , invoice : redirected to Invoices
     };
 
-    entity Leaves             as projection on my.Leaves;
+    entity Leaves             as projection on my.Leaves {
+        * , employee.username
+    };
+
     entity LeaveAggregations  as projection on my.LeaveAggregations;
     entity Travels            as projection on my.Travels;
     entity TravelAggregations as projection on my.TravelAggregations;
@@ -129,6 +135,7 @@ service TimetrackingService {
         select from my.EmployeesToProjects {
             *,
             project.title,
-            employee.name
+            employee.name,
+            employee.username
         };
 }

@@ -10,7 +10,7 @@ service LeavesService {
     },
     {
         grant : ['READ'],
-        where : 'ID = $user'
+        where : 'username = $user'
     }
     ])
     entity Leaves    as projection on my.Leaves;

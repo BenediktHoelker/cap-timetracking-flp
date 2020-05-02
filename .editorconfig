@@ -1,4 +1,4 @@
-root = true
+npmroot = true
 
 [*]
 indent_style = space
