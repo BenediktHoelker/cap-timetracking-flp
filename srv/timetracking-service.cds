@@ -25,18 +25,18 @@ service TimetrackingService {
                 billingFactor,
                 count(
                     records.ID
-                )                as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
+                ) as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
                 sum(
                     records.time
-                )                as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
+                ) as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
                 createdAt,
                 createdBy,
                 modifiedAt,
                 modifiedBy,
                 customer,
                 manager,
-                manager.username as managerUserName,
-                members                                                                    : redirected to ProjectMembers
+                managerUserName,
+                members                                                     : redirected to ProjectMembers
         }
         group by
             Projects.ID,
@@ -48,7 +48,6 @@ service TimetrackingService {
             Projects.modifiedBy,
             Projects.billingFactor,
             Projects.manager,
-            Projects.manager.username,
             Projects.customer;
 
     entity Employees          as
