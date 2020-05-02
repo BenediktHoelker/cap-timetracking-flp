@@ -101,7 +101,13 @@ service TimetrackingService {
 
     entity Customers          as
         select from my.Customers {
-            *,
+            createdAt,
+            createdBy,
+            ID,
+            modifiedAt,
+            modifiedBy,
+            name,
+            projects,
             count(
                 projects.ID
             ) as projectsCount @(title : '{i18n>Customers.projectsCount}') : Integer,

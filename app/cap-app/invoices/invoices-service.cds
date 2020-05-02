@@ -73,7 +73,10 @@ annotate my.InvoiceItems with @(UI : {
 annotate my.InvoiceItems with {
     ID     @UI.Hidden;
     record @(Common : {
-        Text             : record.title,
+        Text             : {
+            $value                 : record.title,
+            ![@UI.TextArrangement] : #TextOnly
+        },
         ValueList.entity : 'Records',
         FieldControl     : #Mandatory
     })

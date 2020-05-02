@@ -18,11 +18,14 @@ annotate my.Leaves with @(UI : {
     ID       @UI.Hidden;
     employee @(
         Common    : {
-            Text         : employee.name,
+            Text         : {
+                $value                 : employee.name,
+                ![@UI.TextArrangement] : #TextOnly
+            },
             FieldControl : #Mandatory
         },
         ValueList : {entity : 'Employees'}
-    )
+    );
 };
 
 annotate my.LeaveStatus with {

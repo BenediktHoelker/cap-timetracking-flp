@@ -35,7 +35,10 @@ annotate my.Employees with @(UI : {
     ID      @UI.Hidden;
     manager @(
         Common    : {
-            Text         : manager.name,
+            Text         : {
+                $value                 : manager.name,
+                ![@UI.TextArrangement] : #TextOnly
+            },
             FieldControl : #Mandatory
         },
         ValueList : {entity : 'Employees'}
@@ -110,7 +113,10 @@ annotate my.ProjectMembers with {
     ID      @UI.Hidden;
     project @(
         Common    : {
-            Text         : project.title,
+            Text         : {
+                $value                 : project.title,
+                ![@UI.TextArrangement] : #TextOnly
+            },
             FieldControl : #Mandatory
         },
         ValueList : {entity : 'Projects'},
@@ -122,7 +128,10 @@ annotate my.Travels with {
     ID      @UI.Hidden;
     project @(
         Common    : {
-            Text         : project.title,
+            Text         : {
+                $value                 : project.title,
+                ![@UI.TextArrangement] : #TextOnly
+            },
             FieldControl : #Mandatory
         },
         ValueList : {entity : 'Projects'},

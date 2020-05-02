@@ -22,8 +22,8 @@ entity Records : cuid, managed {
 @cds.odata.valuelist
 @cds.autoexpose
 entity RecordStatus {
-  key ID   : String @title : '{i18n>RecordStatus.key}';
-      text : String @title : '{i18n>RecordStatus.title}';
+  key ID   : String           @title : '{i18n>RecordStatus.key}';
+      text : localized String @title : '{i18n>RecordStatus.title}';
 }
 
 entity Projects : cuid, managed {
@@ -114,20 +114,32 @@ entity TravelAggregations as
     employee;
 
 entity Leaves : cuid, managed {
-  reason      : String                     @title :             '{i18n>Leaves.reason}';
+  reason      : localized String           @title :             '{i18n>Leaves.reason}';
   dateFrom    : Date                       @mandatory  @title : '{i18n>Leaves.dateFrom}';
   dateTo      : Date                       @title :             '{i18n>Leaves.dateTo}';
   daysOfLeave : Integer                    @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
-  status      : Association to LeaveStatus @title :             '{i18n>Leaves.status}';
+  status      : Association to LeaveStatus @(
+                  title  : '{i18n>Leaves.status}',
+                  Common : {
+                    Text         : {
+                      $value                 : status.text,
+                      ![@UI.TextArrangement] : #TextOnly
+                    },
+                    ValueList    : {
+                      entity : 'LeaveStatus',
+                      type   : #fixed
+                    },
+                    FieldControl : #Mandatory
+                  }
+                );
   username    : String                     @title :             '{i18n>Leaves.username}';
   employee    : Association to Employees   @title :             '{i18n>Leaves.employee}';
 }
 
-@cds.odata.valuelist
 @cds.autoexpose
 entity LeaveStatus {
-  key ID   : String @title : '{i18n>LeaveStatus.key}';
-      text : String @title : '{i18n>LeaveStatus.title}';
+  key ID   : String           @title : '{i18n>LeaveStatus.key}';
+      text : localized String @title : '{i18n>LeaveStatus.title}';
 }
 
 @cds.autoexpose

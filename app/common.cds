@@ -38,7 +38,10 @@ annotate my.Records with @(UI : {
     ID          @UI.Hidden;
     description @UI.MultiLineText;
     project     @(Common : {
-        Text         : project.title,
+        Text         : {
+            $value                 : project.title,
+            ![@UI.TextArrangement] : #TextOnly
+        },
         FieldControl : #Mandatory,
         ValueList    : {
             entity     : 'ProjectMembers',
@@ -61,7 +64,10 @@ annotate my.Records with @(UI : {
         },
     });
     employee    @(Common : {
-        Text         : employee.name,
+        Text         : {
+            $value                 : employee.name,
+            ![@UI.TextArrangement] : #TextOnly
+        },
         FieldControl : #Mandatory,
         ValueList    : {
             entity     : 'Employees',
@@ -97,12 +103,18 @@ annotate my.Projects with @(UI : {
         title  : '{i18n>ProjectID}',
     );
     customer @(Common : {
-        Text             : customer.name,
+        Text             : {
+            $value                 : customer.name,
+            ![@UI.TextArrangement] : #TextOnly
+        },
         FieldControl     : #Mandatory,
         ValueList.entity : 'Customers'
     });
     manager  @(Common : {
-        Text             : manager.name,
+        Text             : {
+            $value                 : manager.name,
+            ![@UI.TextArrangement] : #TextOnly
+        },
         FieldControl     : #Mandatory,
         ValueList.entity : 'Employees'
     });
@@ -175,7 +187,10 @@ annotate my.ProjectMembers with @(UI : {
     employee_ID @UI.Hidden;
     project     @(
         Common    : {
-            Text         : title,
+            Text         : {
+                $value                 : title,
+                ![@UI.TextArrangement] : #TextOnly
+            },
             FieldControl : #Mandatory
         },
         ValueList : {entity : 'Projects'},
