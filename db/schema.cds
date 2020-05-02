@@ -114,7 +114,7 @@ entity TravelAggregations as
     employee;
 
 entity Leaves : cuid, managed {
-  reason      : localized String           @title :             '{i18n>Leaves.reason}';
+  reason      : String                     @title :             '{i18n>Leaves.reason}';
   dateFrom    : Date                       @mandatory  @title : '{i18n>Leaves.dateFrom}';
   dateTo      : Date                       @title :             '{i18n>Leaves.dateTo}';
   daysOfLeave : Integer                    @readonly  @title  : '{i18n>Leaves.daysOfLeave}';

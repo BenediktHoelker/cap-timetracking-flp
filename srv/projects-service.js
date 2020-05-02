@@ -17,7 +17,7 @@ module.exports = (srv) => {
   srv.before(["PATCH"], "Projects", async (req) => {
     const manager = await getManagerEmployee(req, req.data.manager_ID);
 
-    req.data.managerUserName = manager.username;
+    req.data.managerUserName = manager.username || "";
   });
 };
 

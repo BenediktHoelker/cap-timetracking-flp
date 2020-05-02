@@ -48,6 +48,7 @@ service TimetrackingService {
             Projects.modifiedBy,
             Projects.billingFactor,
             Projects.manager,
+            Projects.managerUserName,
             Projects.customer;
 
     entity Employees          as
