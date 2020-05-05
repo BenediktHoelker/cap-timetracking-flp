@@ -52,7 +52,7 @@ annotate my.Records with @(UI : {
                 ValueListProperty : 'employee_ID'
             },
             {
-                $Type             : 'Common.ValueListParameterInOut',
+                $Type             : 'Common.ValueListParameterOut',
                 ValueListProperty : 'project_ID',
                 LocalDataProperty : 'project_ID',
             },

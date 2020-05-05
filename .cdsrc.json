@@ -25,5 +25,10 @@
                 }
             }
         ]
+    },
+    "auth": {
+        "passport": {
+            "strategy": "mock"
+        }
     }
 }
