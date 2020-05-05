@@ -1,4 +1,4 @@
-using {TimetrackingService as my} from '../../common';
+using {LeavesService as my} from '../../../srv/leaves-service';
 
 annotate my.Leaves with @(UI : {
     FieldGroup #General : {Data : [
@@ -6,16 +6,21 @@ annotate my.Leaves with @(UI : {
     {Value : reason},
     {Value : status_ID}
     ]},
-    UI                  : {LineItem : [
+    LineItem            : [
     {Value : employee.name},
     {Value : reason},
+    {Value : daysOfLeave},
     {Value : dateFrom},
     {Value : dateTo},
-    {Value : daysOfLeave},
-    {Value : status.text}
-    ]}
+    {Value : status.text},
+    {
+        $Type  : 'UI.DataFieldForAction',
+        Value  : ID,
+        Label  : 'Approve',
+        Action : 'LeavesService.approve'
+    },
+    ]
 }) {
-    ID       @UI.Hidden;
     employee @(
         Common    : {
             Text         : {
@@ -27,7 +32,3 @@ annotate my.Leaves with @(UI : {
         ValueList : {entity : 'Employees'}
     );
 };
-
-annotate my.LeaveStatus with {
-    ID @UI.Hidden;
-}

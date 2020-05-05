@@ -13,7 +13,9 @@ service LeavesService {
         where : 'username = $user'
     }
     ])
-    entity Leaves    as projection on my.Leaves;
+    entity Leaves    as projection on my.Leaves actions {
+        action approve() //Action requires context
+    };
 
     entity Employees as projection on my.Employees;
 }
