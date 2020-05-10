@@ -2,7 +2,7 @@ using {TimetrackingService as my} from './timetracking-service';
 
 service RecordsService {
     @odata.draft.enabled
-    entity Records @(restrict : [
+    entity Records                       @(restrict : [
     {
         grant : ['READ'],
         to    : 'admin'
@@ -12,8 +12,20 @@ service RecordsService {
         where : 'username = $user'
     },
     ])                  as projection on my.Records actions {
-        // bound actions/functions
-        action createInvoice()
+                                         @(requires : 'admin')
+        action settleUp(invoice : String @(
+            Common : {
+                Text         : {
+                    $value                 : title,
+                    ![@UI.TextArrangement] : #TextOnly
+                },
+                FieldControl : #Mandatory,
+                ValueList    : {
+
+                entity : 'Invoices'}
+            },
+            title  : '{i18n>Records.invoice}'
+        ))
     };
 
     entity Projects     as projection on my.Projects

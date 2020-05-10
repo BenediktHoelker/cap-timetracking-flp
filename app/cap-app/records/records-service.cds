@@ -29,3 +29,7 @@ annotate my.Records with @(UI : {
     {Value : modifiedAt}
     ]}
 });
+
+annotate my.Invoices {
+    ID @UI.Hidden
+};

@@ -5,9 +5,10 @@ service TimetrackingService {
         select from my.Records {
             *,
             employee.username,
+            invoice                                          : redirected to Invoices,
             case
                 when
-                    invoiceItem.ID is null
+                    invoice.ID is null
                 then
                     'INITIAL'
                 else
@@ -133,6 +134,7 @@ service TimetrackingService {
     };
 
     entity LeaveAggregations  as projection on my.LeaveAggregations;
+    entity LeaveStatus        as projection on my.LeaveStatus;
     entity Travels            as projection on my.Travels;
     entity TravelAggregations as projection on my.TravelAggregations;
     entity InvoicesView       as projection on my.InvoicesView;

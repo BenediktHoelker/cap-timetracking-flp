@@ -1,48 +1,5 @@
 using {InvoicesService as my} from '../../../srv/invoices-service';
 
-annotate my.Invoices with @(UI : {
-    HeaderInfo          : {
-        TypeName       : '{i18n>Invoice}',
-        TypeNamePlural : '{i18n>Invoices}',
-        Title          : {Value : title}
-    },
-    Facets              : [
-    {
-        $Type  : 'UI.ReferenceFacet',
-        Label  : '{i18n>General}',
-        Target : '@UI.FieldGroup#General'
-    },
-    {
-        $Type  : 'UI.ReferenceFacet',
-        Label  : '{i18n>InvoiceItems}',
-        Target : 'items/@UI.LineItem'
-    }
-    ],
-    FieldGroup #General : {Data : [
-    {Value : title},
-    {Value : description}
-    ]},
-    SelectionFields     : [
-    title,
-    customer_ID
-    ],
-    LineItem            : [
-    {Value : title},
-    {Value : description},
-    {
-        Value : customer.name,
-        Label : '{i18n>Invoices.customer}'
-    }
-    ],
-});
-
-annotate my.Invoices with {
-    ID @UI.Hidden;
-    ID @(Common : {
-        Text         : title,
-        FieldControl : #Mandatory
-    })
-}
 
 annotate my.InvoiceItems with @(UI : {
     HeaderInfo          : {

@@ -16,19 +16,21 @@ annotate my.Leaves with @(UI : {
     {
         $Type  : 'UI.DataFieldForAction',
         Value  : ID,
-        Label  : 'Approve',
+        Label  : '{i18n>Leaves.approve}',
         Action : 'LeavesService.approve'
     },
     ]
 }) {
-    employee @(
-        Common    : {
-            Text         : {
-                $value                 : employee.name,
-                ![@UI.TextArrangement] : #TextOnly
-            },
-            FieldControl : #Mandatory
+    employee @(Common : {
+        Text         : {
+            $value                 : employee.name,
+            ![@UI.TextArrangement] : #TextOnly
         },
-        ValueList : {entity : 'Employees'}
-    );
+        FieldControl : #Mandatory,
+        ValueList    : {entity : 'Employees'}
+    });
+}
+
+annotate my.LeaveStatus {
+    ID @UI.Hidden
 };

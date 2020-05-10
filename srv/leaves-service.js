@@ -1,7 +1,11 @@
 /* eslint-disable camelcase */
 const reuse = require("./reuse-functions");
+const cds = require("@sap/cds");
 
-module.exports = (srv) => {
+module.exports = async (srv) => {
+  const db = await cds.connect.to("db"); // connect to database service
+  const { Leaves } = db.entities; // get reflected definitions
+
   srv.before("NEW", "Leaves", async (req) => {
     const employee = await reuse.getEmployeeFromRequestUser(req);
 
@@ -18,6 +22,12 @@ module.exports = (srv) => {
     }
 
     req.data.daysOfLeave = getDaysBetween(dateFrom, dateTo);
+  });
+
+  srv.on("approve", "Leaves", async (req) => {
+    const ID = req.params[0];
+
+    await UPDATE(Leaves).set({ status_ID: "APPROVED" }).where({ ID: ID });
   });
 };
 

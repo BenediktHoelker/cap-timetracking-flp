@@ -33,6 +33,11 @@ annotate my.Records with @(UI : {
     {Value : date},
     {Value : time},
     {Value : status},
+    {
+        $Type  : 'UI.DataFieldForAction',
+        Label  : '{i18n>Records.settleUp}',
+        Action : 'RecordsService.settleUp'
+    }
     ]
 }) {
     ID          @UI.Hidden;
@@ -186,15 +191,15 @@ annotate my.ProjectMembers with @(UI : {
     ID          @UI.Hidden;
     employee_ID @UI.Hidden;
     project     @(
-        Common    : {
+        Common : {
             Text         : {
                 $value                 : title,
                 ![@UI.TextArrangement] : #TextOnly
             },
-            FieldControl : #Mandatory
+            FieldControl : #Mandatory,
+            ValueList    : {entity : 'Projects'}
         },
-        ValueList : {entity : 'Projects'},
-        title     : '{i18n>Project}'
+        title  : '{i18n>Project}'
     );
     employee    @(
         Common    : {
@@ -242,3 +247,52 @@ annotate my.Leaves with @(UI : {
     {Value : status.text},
     ]
 });
+
+
+annotate my.Invoices with @(UI : {
+    HeaderInfo          : {
+        TypeName       : '{i18n>Invoice}',
+        TypeNamePlural : '{i18n>Invoices}',
+        Title          : {Value : title}
+    },
+    Facets              : [
+    {
+        $Type  : 'UI.ReferenceFacet',
+        Label  : '{i18n>General}',
+        Target : '@UI.FieldGroup#General'
+    },
+    {
+        $Type  : 'UI.ReferenceFacet',
+        Label  : '{i18n>InvoiceItems}',
+        Target : 'items/@UI.LineItem'
+    }
+    ],
+    FieldGroup #General : {Data : [
+    {Value : title},
+    {Value : description}
+    ]},
+    SelectionFields     : [
+    title,
+    customer_ID
+    ],
+    Identification      : [
+    title,
+    customer_ID
+    ],
+    LineItem            : [
+    {Value : title},
+    {Value : description},
+    {
+        Value : customer.name,
+        Label : '{i18n>Invoices.customer}'
+    }
+    ],
+});
+
+annotate my.Invoices with {
+    ID @UI.Hidden;
+    ID @(Common : {
+        Text         : title,
+        FieldControl : #Mandatory
+    })
+}
