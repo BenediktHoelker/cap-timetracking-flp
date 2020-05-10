@@ -268,6 +268,7 @@ annotate my.Invoices with @(UI : {
     }
     ],
     FieldGroup #General : {Data : [
+    {Value : customer_ID},
     {Value : title},
     {Value : description}
     ]},
@@ -280,19 +281,27 @@ annotate my.Invoices with @(UI : {
     customer_ID
     ],
     LineItem            : [
-    {Value : title},
-    {Value : description},
     {
         Value : customer.name,
         Label : '{i18n>Invoices.customer}'
-    }
+    },
+    {Value : title},
+    {Value : description},
     ],
 });
 
 annotate my.Invoices with {
-    ID @UI.Hidden;
-    ID @(Common : {
+    ID       @UI.Hidden;
+    ID       @(Common : {
         Text         : title,
         FieldControl : #Mandatory
-    })
+    });
+    customer @(Common : {
+        Text             : {
+            $value                 : customer.name,
+            ![@UI.TextArrangement] : #TextOnly
+        },
+        FieldControl     : #Mandatory,
+        ValueList.entity : 'Customers'
+    });
 }

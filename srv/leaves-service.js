@@ -26,8 +26,13 @@ module.exports = async (srv) => {
 
   srv.on("approve", "Leaves", async (req) => {
     const ID = req.params[0];
+    const status = req.data.status;
 
-    await UPDATE(Leaves).set({ status_ID: "APPROVED" }).where({ ID: ID });
+    if (!status) {
+      return req.error(410, "A valid status must be chosen.");
+    }
+
+    await UPDATE(Leaves).set({ status_ID: status }).where({ ID: ID });
   });
 };
 

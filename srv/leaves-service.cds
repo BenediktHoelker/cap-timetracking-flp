@@ -14,17 +14,19 @@ service LeavesService {
     }
     ])
     entity Leaves      as projection on my.Leaves actions {
-        action approve()
-    // (status : LeaveStatus @(
-    //     Common : {
-    //         Text      : {
-    //             $value                 : text,
-    //             ![@UI.TextArrangement] : #TextOnly
-    //         },
-    //         ValueList : {entity : 'LeaveStatus'}
-    //     },
-    //     title  : '{i18n>Leaves.approve}'
-    // ))
+        action approve(status : String @(
+            Common : {
+                Text      : {
+                    $value                 : text,
+                    ![@UI.TextArrangement] : #TextOnly
+                },
+                ValueList : {
+                    entity : 'LeaveStatus',
+                    type   : #fixed
+                }
+            },
+            title  : '{i18n>Leaves.approve}'
+        ))
     };
 
     entity Employees   as projection on my.Employees;

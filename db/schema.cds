@@ -6,16 +6,17 @@ using {
 } from '@sap/cds/common';
 
 entity Records : cuid, managed {
-  title       : String                   @mandatory  @title : '{i18n>Records.title}';
-  description : String                   @title :             '{i18n>Records.description}';
-  time        : Decimal(4, 2)            @mandatory  @title : '{i18n>Records.time}';
-  timeUnit    : String default 'h'       @readonly  @title  : '{i18n>Records.timeUnit}';
-  date        : Date                     @mandatory  @title : '{i18n>Records.date}';
-  status      : String                   @title :             '{i18n>Records.status}';
-  username    : String                   @title :             '{i18n>Records.username}';
-  invoice     : Association to Invoices  @title :             '{i18n>Records.invoice}';
-  employee    : Association to Employees @title :             '{i18n>Records.employee}';
-  project     : Association to Projects  @title :             '{i18n>Records.project}';
+  title       : String                          @mandatory  @title : '{i18n>Records.title}';
+  description : String                          @title :             '{i18n>Records.description}';
+  time        : Decimal(4, 2)                   @mandatory  @title : '{i18n>Records.time}';
+  timeUnit    : String default 'h'              @readonly  @title  : '{i18n>Records.timeUnit}';
+  date        : Date                            @mandatory  @title : '{i18n>Records.date}';
+  status      : String                          @title :             '{i18n>Records.status}';
+  invoiceItem : Association to InvoiceItems
+                  on invoiceItem.record = $self @title :             '{i18n>Records.invoiceItem}';
+  username    : String                          @title :             '{i18n>Records.username}';
+  employee    : Association to Employees        @title :             '{i18n>Records.employee}';
+  project     : Association to Projects         @title :             '{i18n>Records.project}';
 }
 
 @cds.odata.valuelist

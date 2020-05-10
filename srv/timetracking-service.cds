@@ -5,10 +5,9 @@ service TimetrackingService {
         select from my.Records {
             *,
             employee.username,
-            invoice                                          : redirected to Invoices,
             case
                 when
-                    invoice.ID is null
+                    invoiceItem.ID is null
                 then
                     'INITIAL'
                 else
