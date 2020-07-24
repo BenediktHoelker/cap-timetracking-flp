@@ -48,7 +48,7 @@
         "dependencies": {
             "minUI5Version": "1.60.0",
             "libs": {
-                "sap.fe": {}
+                "sap.fe.templates": {}
             }
         },
         "models": {
