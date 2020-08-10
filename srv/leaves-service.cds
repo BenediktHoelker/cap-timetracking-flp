@@ -1,6 +1,6 @@
 using {TimetrackingService as my} from './timetracking-service';
 
-service LeavesService {
+service LeavesService @(requires : 'authenticated-user') {
     @odata.draft.enabled
 
     @(restrict : [

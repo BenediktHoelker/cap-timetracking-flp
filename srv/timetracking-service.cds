@@ -1,6 +1,6 @@
 using {my.timetracking as my} from '../db/schema';
 
-service TimetrackingService {
+service TimetrackingService @(requires : 'admin') {
     entity Records            as
         select from my.Records {
             *,

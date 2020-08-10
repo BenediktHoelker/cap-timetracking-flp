@@ -1,6 +1,6 @@
 using {TimetrackingService as my} from './timetracking-service';
 
-service EmployeesService {
+service EmployeesService @(requires : 'authenticated-user') {
     @odata.draft.enabled
     entity Employees @(restrict : [
     {

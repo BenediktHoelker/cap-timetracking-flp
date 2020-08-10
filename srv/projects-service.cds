@@ -1,6 +1,6 @@
 using {TimetrackingService as my} from './timetracking-service';
 
-service ProjectsService {
+service ProjectsService @(requires : 'authenticated-user') {
     entity Customers      as projection on my.Customers;
     entity Employees      as projection on my.Employees;
     entity Records        as projection on my.Records;
