@@ -63,7 +63,7 @@
         "kind": "xsuaa"
       },
       "db": {
-        "kind": "postgres"
+        "kind": "sql"
       },
       "postgres": {
         "impl": "cds-pg",
