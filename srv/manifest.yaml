@@ -1,7 +1,0 @@
----
-applications:
-- name: timetracking-srv
-  path: .
-  memory: 1400M
-  services:
-  - timetracking-db-hdi-container

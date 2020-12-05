@@ -4,6 +4,13 @@ description: Project management / timetracking for IT-service-providers based on
 version: 0.0.1
 parameters:
   enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm install --production
+        - npx cds-dbm build --production
+        
 modules:
   - name: cap-timetracking
     type: nodejs
@@ -30,11 +37,6 @@ modules:
     path: deployer
     requires:
       - name: cap-timetracking_html5_repo_host
-    build-parameters:
-      builder: custom
-      ignore: ["node_modules/"]
-      commands:
-        - npm run build:ui --prefix ..
 
   - name: cap-timetracking_launchpad_deployer
     type: com.sap.portal.content
@@ -57,17 +59,26 @@ modules:
           url: ${default-url}
     requires:
       - name: cap-timetracking_uaa
-      - name: timetracking-db-hdi-container
+      - name: cap-timetracking-postgres
 
-  - name: timetracking-db
-    type: hdb
-    path: db
+  - name: cap-timetracking-db-deployer
+    type: custom
+    path: gen/db
     parameters:
+      buildpacks: [https://github.com/cloudfoundry/apt-buildpack#v0.2.2, nodejs_buildpack] 
+      no-route: true
+      no-start: true
+      disk-quota: 2GB
+      memory: 512MB
+      tasks:
+      - name: deploy_to_postgresql
+        command: chmod 755 deploy.sh && ./deploy.sh
+        disk-quota: 2GB
+        memory: 512MB      
+    build-parameters:
       ignore: ["node_modules/"]
-      memory: 1024M
-      disk-quota: 1024M
     requires:
-      - name: timetracking-db-hdi-container
+      - name: cap-timetracking-postgres
 
 resources:
   - name: cap-timetracking_uaa
@@ -101,12 +112,12 @@ resources:
     parameters:
       service-plan: standard
       service: portal
-      
-  - name: timetracking-db-hdi-container
-    type: com.sap.xs.hdi-container
-    properties:
-      hdi-container-name: ${service-name}
+        
+  - name: cap-timetracking-postgres
     parameters:
-      service-plan: hdi-shared
-      service: hanatrial
-      # service: hana
+      path: ./pg-options.json
+      service: postgresql-db
+      service-plan: trial
+      skip-service-updates:
+        parameters: true
+    type: org.cloudfoundry.managed-service

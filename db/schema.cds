@@ -22,8 +22,8 @@ entity Records : cuid, managed {
 @cds.odata.valuelist
 @cds.autoexpose
 entity RecordStatus {
-  key ID   : String           @title : '{i18n>RecordStatus.key}';
-      text : localized String @title : '{i18n>RecordStatus.title}';
+  key ID   : String @title : '{i18n>RecordStatus.key}';
+      text : String @title : '{i18n>RecordStatus.title}';
 }
 
 entity Projects : cuid, managed {
@@ -53,15 +53,15 @@ entity Employees : cuid, managed {
   billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
   bonus         : Integer @title :             '{i18n>Employees.bonus}';
   manager       : Association to Employees;
-  @title                         :             '{i18n>Employees.manager}'
+  @title :                                     '{i18n>Employees.manager}'
   travels       : Association to many Travels
                     on travels.employee = $self;
-  travelAggr    : Association to one TravelAggregations
-                    on travelAggr.employee = $self;
+  // travelAggr    : Association to one TravelAggregations
+  //                   on travelAggr.employee = $self;
   leaves        : Association to many Leaves
                     on leaves.employee = $self;
-  leaveAggr     : Association to one LeaveAggregations
-                    on leaveAggr.employee = $self;
+  // leaveAggr     : Association to one LeaveAggregations
+  //                   on leaveAggr.employee = $self;
   projects      : Composition of many EmployeesToProjects
                     on projects.employee = $self;
   records       : Association to many Records
@@ -102,16 +102,16 @@ entity Travels : cuid, managed {
   employee      : Association to Employees @title    :          '{i18n>Travels.employee}';
 }
 
-@cds.autoexpose
-entity TravelAggregations as
-  select from Travels {
-    key employee,
-        sum(
-          daysOfTravel
-        ) as daysOfTravel @(title : '{i18n>Travels.daysOfTravel}') : Integer
-  }
-  group by
-    employee;
+// @cds.autoexpose
+// entity TravelAggregations as
+//   select from Travels {
+//     key employee,
+//         sum(
+//           daysOfTravel
+//         ) as daysOfTravel @(title : '{i18n>Travels.daysOfTravel}') : Integer
+//   }
+//   group by
+//     employee;
 
 entity Leaves : cuid, managed {
   reason      : String                     @title :             '{i18n>Leaves.reason}';
@@ -138,20 +138,20 @@ entity Leaves : cuid, managed {
 
 @cds.odata.valuelist
 entity LeaveStatus {
-  key ID   : String           @title : '{i18n>LeaveStatus.key}';
-      text : localized String @title : '{i18n>LeaveStatus.title}';
+  key ID   : String @title : '{i18n>LeaveStatus.key}';
+      text : String @title : '{i18n>LeaveStatus.title}';
 }
 
-@cds.autoexpose
-entity LeaveAggregations  as
-  select from Leaves {
-    key employee,
-        sum(
-          daysOfLeave
-        ) as daysOfLeave @(title : '{i18n>Leaves.daysOfLeave}') : Integer
-  }
-  group by
-    employee;
+// @cds.autoexpose
+// entity LeaveAggregations as
+//   select from Leaves {
+//     key employee,
+//         sum(
+//           daysOfLeave
+//         ) as daysOfLeave @(title : '{i18n>Leaves.daysOfLeave}') : Integer
+//   }
+//   group by
+//     employee;
 
 view CustomersView as
   select from timetracking.Customers {
@@ -181,7 +181,7 @@ entity InvoiceItems : cuid, managed {
   record  : Association to Records;
 }
 
-entity InvoicesView       as
+entity InvoicesView as
   select from timetracking.Invoices {
     *,
     sum(

@@ -1,7 +1,7 @@
 using {my.timetracking as my} from '../db/schema';
 
 service TimetrackingService @(requires : 'admin') {
-    entity Records            as
+    entity Records        as
         select from my.Records {
             *,
             employee.username,
@@ -17,7 +17,7 @@ service TimetrackingService @(requires : 'admin') {
         order by
             Records.createdAt desc;
 
-    entity Projects           as
+    entity Projects       as
         select from my.Projects {
             key ID,
                 title,
@@ -51,7 +51,7 @@ service TimetrackingService @(requires : 'admin') {
             Projects.managerUserName,
             Projects.customer;
 
-    entity Employees          as
+    entity Employees      as
         select from my.Employees {
             ID,
             name,
@@ -80,9 +80,9 @@ service TimetrackingService @(requires : 'admin') {
             manager,
             projects,
             travels                                                      : redirected to Travels,
-            travelAggr,
+            // travelAggr,
             leaves                                                       : redirected to Leaves,
-            leaveAggr
+        // leaveAggr
         }
         group by
             Employees.ID,
@@ -97,9 +97,9 @@ service TimetrackingService @(requires : 'admin') {
             Employees.daysOfTravel;
 
 
-    entity Packages           as projection on my.Packages;
+    entity Packages       as projection on my.Packages;
 
-    entity Customers          as
+    entity Customers      as
         select from my.Customers {
             createdAt,
             createdBy,
@@ -122,23 +122,20 @@ service TimetrackingService @(requires : 'admin') {
             Customers.name;
 
 
-    entity Invoices           as projection on my.Invoices;
+    entity Invoices       as projection on my.Invoices;
 
-    entity InvoiceItems       as projection on my.InvoiceItems {
+    entity InvoiceItems   as projection on my.InvoiceItems {
         * , invoice : redirected to Invoices
     };
 
-    entity Leaves             as projection on my.Leaves {
-        * , employee.username
-    };
+    entity Leaves         as projection on my.Leaves;
+    // entity LeaveAggregations  as projection on my.LeaveAggregations;
+    entity LeaveStatus    as projection on my.LeaveStatus;
+    entity Travels        as projection on my.Travels;
+    // entity TravelAggregations as projection on my.TravelAggregations;
+    entity InvoicesView   as projection on my.InvoicesView;
 
-    entity LeaveAggregations  as projection on my.LeaveAggregations;
-    entity LeaveStatus        as projection on my.LeaveStatus;
-    entity Travels            as projection on my.Travels;
-    entity TravelAggregations as projection on my.TravelAggregations;
-    entity InvoicesView       as projection on my.InvoicesView;
-
-    entity ProjectMembers     as
+    entity ProjectMembers as
         select from my.EmployeesToProjects {
             *,
             project.title,
