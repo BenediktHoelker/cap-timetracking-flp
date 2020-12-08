@@ -1,4 +1,4 @@
-using {InvoicesService as my} from '../../../srv/invoices-service';
+using {TimetrackingService as my} from '../../../srv/timetracking-service';
 
 
 annotate my.InvoiceItems with @(UI : {

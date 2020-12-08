@@ -1,5 +1,6 @@
-using {EmployeesService as my} from '../../../srv/employees-service';
+using {TimetrackingService as my} from '../../../srv/timetracking-service';
 
+// annotate my.Employees with @odata.draft.enabled;
 annotate my.Employees with @(UI : {
     Facets              : [
     {
@@ -32,7 +33,6 @@ annotate my.Employees with @(UI : {
     }
     ]}
 }) {
-    ID      @UI.Hidden;
     manager @(
         Common    : {
             Text         : {
@@ -88,41 +88,6 @@ annotate my.Travels with @(UI : {
     {Value : returnJourney}
     ]
 });
-
-annotate my.ProjectMembers with @(UI : {
-    HeaderInfo          : {
-        TypeName       : '{i18n>Project}',
-        TypeNamePlural : '{i18n>Projects}',
-        Title          : {Value : project.title}
-    },
-    Identification      : [{Value : title}],
-    SelectionFields     : [title],
-    LineItem            : [{
-        Value : project.title,
-        Label : '{i18n>Project}'
-    }],
-    Facets              : [{
-        $Type  : 'UI.ReferenceFacet',
-        Label  : '{i18n>General}',
-        Target : '@UI.FieldGroup#General'
-    }],
-    FieldGroup #General : {Data : [{Value : project_ID}]}
-});
-
-annotate my.ProjectMembers with {
-    ID      @UI.Hidden;
-    project @(
-        Common    : {
-            Text         : {
-                $value                 : project.title,
-                ![@UI.TextArrangement] : #TextOnly
-            },
-            FieldControl : #Mandatory
-        },
-        ValueList : {entity : 'Projects'},
-        title     : '{i18n>Project}'
-    );
-}
 
 annotate my.Travels with {
     ID      @UI.Hidden;

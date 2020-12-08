@@ -1,19 +1,19 @@
 {
-    "authenticationMethod": "route",
-    "logout": {
-        "logoutEndpoint": "/do/logout"
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/cap-app/(.*)$",
+      "target": "$1",
+      "localDir": "cap-app/"
     },
-    "routes": [
-        {
-            "source": "^/cap-app/(.*)$",
-            "target": "$1",
-            "localDir": "cap-app/"
-        },
-        {
-            "source": "^(.*)$",
-            "target": "$1",
-            "authenticationType": "xsuaa",
-            "destination": "srv_api"
-        }
-    ]
+    {
+      "source": "^/(.*)$",
+      "target": "$1",
+      "destination": "srv_api",
+      "csrfProtection": false
+    }
+  ]
 }

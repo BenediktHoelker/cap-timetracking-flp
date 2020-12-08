@@ -16,7 +16,7 @@
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "InvoicesService": {
-                "uri": "/invoices/",
+                "uri": "/timetracking/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"

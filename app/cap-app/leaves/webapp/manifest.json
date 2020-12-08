@@ -11,7 +11,7 @@
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "LeavesService": {
-                "uri": "/leaves/",
+                "uri": "/timetracking/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"

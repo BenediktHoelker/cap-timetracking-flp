@@ -48,7 +48,6 @@ service RecordsService @(requires : 'authenticated-user') {
     entity Customers    as projection on my.Customers;
     entity Invoices     as projection on my.Invoices;
     entity InvoiceItems as projection on my.InvoiceItems;
-    entity InvoicesView as projection on my.InvoicesView;
 
     entity ProjectMembers @(restrict : [
     {

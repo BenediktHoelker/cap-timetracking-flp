@@ -1,5 +1,6 @@
-using {RecordsService as my} from '../../../srv/records-service';
+using {TimetrackingService as my} from '../../../srv/timetracking-service';
 
+annotate my.Records with @odata.draft.enabled;
 annotate my.Records with @(UI : {
     Facets              : [
     {
@@ -29,7 +30,3 @@ annotate my.Records with @(UI : {
     {Value : modifiedAt}
     ]}
 });
-
-annotate my.Invoices {
-    ID @UI.Hidden
-};

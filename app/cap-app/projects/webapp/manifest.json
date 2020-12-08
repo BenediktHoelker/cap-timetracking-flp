@@ -17,7 +17,7 @@
         "i18n": "i18n/i18n.properties",
         "dataSources": {
             "AdminService": {
-                "uri": "/projects/",
+                "uri": "/timetracking/",
                 "type": "OData",
                 "settings": {
                     "odataVersion": "4.0"

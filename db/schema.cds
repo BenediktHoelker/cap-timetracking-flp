@@ -118,20 +118,7 @@ entity Leaves : cuid, managed {
   dateFrom    : Date                       @mandatory  @title : '{i18n>Leaves.dateFrom}';
   dateTo      : Date                       @title :             '{i18n>Leaves.dateTo}';
   daysOfLeave : Integer                    @readonly  @title  : '{i18n>Leaves.daysOfLeave}';
-  status      : Association to LeaveStatus @(
-                  title  : '{i18n>Leaves.status}',
-                  Common : {
-                    Text         : {
-                      $value                 : status.text,
-                      ![@UI.TextArrangement] : #TextOnly
-                    },
-                    ValueList    : {
-                      entity : 'LeaveStatus',
-                      type   : #fixed
-                    },
-                    FieldControl : #Mandatory
-                  }
-                );
+  status      : Association to LeaveStatus @title :             '{i18n>Leaves.status}';
   username    : String                     @title :             '{i18n>Leaves.username}';
   employee    : Association to Employees   @title :             '{i18n>Leaves.employee}';
 }
@@ -180,20 +167,3 @@ entity InvoiceItems : cuid, managed {
   invoice : Association to Invoices;
   record  : Association to Records;
 }
-
-entity InvoicesView as
-  select from timetracking.Invoices {
-    *,
-    sum(
-      items.record.time
-    ) as amount : Double
-  }
-  group by
-    Invoices.createdAt,
-    Invoices.createdBy,
-    Invoices.customer,
-    Invoices.description,
-    Invoices.ID,
-    Invoices.modifiedAt,
-    Invoices.modifiedBy,
-    Invoices.title;

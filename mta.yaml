@@ -28,7 +28,7 @@ modules:
         group: destinations
         properties:
           forwardAuthToken: true
-          strictSSL: true
+          strictSSL: false
           name: srv_api
           url: ~{url}
 
@@ -48,7 +48,7 @@ modules:
 
   - name: timetracking-srv
     type: nodejs
-    path: srv
+    path: gen/srv
     parameters:
       ignore: ["node_modules/"]
       memory: 1024M

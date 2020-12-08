@@ -1,4 +1,4 @@
-using {CustomersService as my} from '../../../srv/customers-service';
+using {TimetrackingService as my} from '../../../srv/timetracking-service';
 
 annotate my.Customers with @(UI : {
     Facets              : [
@@ -18,3 +18,5 @@ annotate my.Customers with @(UI : {
     {Value : projectsCount}
     ]}
 });
+
+annotate my.Customers with @odata.draft.enabled;
