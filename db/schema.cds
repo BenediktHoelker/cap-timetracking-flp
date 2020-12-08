@@ -30,7 +30,7 @@ entity Projects : cuid, managed {
   title           : String                   @title : '{i18n>Projects.title}';
   description     : String                   @title : '{i18n>Projects.description}';
   billingFactor   : Decimal(5, 2)            @title : '{i18n>Projects.billingFactor}';
-  recordsCount    : Integer                  @title : '{i18n>Projects.recordsCount}';
+  recordsCount    : Integer default 0        @title : '{i18n>Projects.recordsCount}';
   totalTime       : Integer                  @title : '{i18n>Projects.totalTime}';
   customer        : Association to Customers @title : '{i18n>Projects.customer}';
   manager         : Association to Employees @title : '{i18n>Projects.manager}';
@@ -39,15 +39,15 @@ entity Projects : cuid, managed {
                       on packages.project = $self;
   records         : Association to many Records
                       on records.project = $self;
-  members         : Composition of many EmployeesToProjects
+  members         : Association to many EmployeesToProjects
                       on members.project = $self;
 }
 
 entity Employees : cuid, managed {
   username      : String  @mandatory  @title : '{i18n>Employees.username}';
   name          : String  @mandatory  @title : '{i18n>Employees.name}';
-  projectsCount : Integer @title :             '{i18n>Employees.projectsCount}';
-  recordsCount  : Integer @title :             '{i18n>Employees.recordsCount}';
+  projectsCount : Integer default 0 @title :             '{i18n>Employees.projectsCount}';
+  recordsCount  : Integer default 0 @title :             '{i18n>Employees.recordsCount}';
   daysOfTravel  : Integer @title :             '{i18n>Employees.daysOfTravel}';
   daysOfLeave   : Integer @title :             '{i18n>Employees.daysOfLeave}';
   billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
@@ -62,7 +62,7 @@ entity Employees : cuid, managed {
                     on leaves.employee = $self;
   // leaveAggr     : Association to one LeaveAggregations
   //                   on leaveAggr.employee = $self;
-  projects      : Composition of many EmployeesToProjects
+  projects      : Association to many EmployeesToProjects
                     on projects.employee = $self;
   records       : Association to many Records
                     on records.employee = $self;
@@ -77,8 +77,8 @@ entity EmployeesToProjects : cuid, managed {
 }
 
 entity Customers : cuid, managed {
-  name          : String  @title : '{i18n>Customers.name}';
-  projectsCount : Integer @title : '{i18n>Customers.projectsCount}';
+  name          : String            @title : '{i18n>Customers.name}';
+  projectsCount : Integer default 0 @title : '{i18n>Customers.projectsCount}';
   projects      : Association to many Projects
                     on projects.customer = $self;
   invoices      : Association to many Invoices
@@ -139,21 +139,6 @@ entity LeaveStatus {
 //   }
 //   group by
 //     employee;
-
-view CustomersView as
-  select from timetracking.Customers {
-    *,
-    count(
-      projects.ID
-    ) as projectsCount : Integer
-  }
-  group by
-    Customers.ID,
-    Customers.createdAt,
-    Customers.createdBy,
-    Customers.modifiedAt,
-    Customers.modifiedBy,
-    Customers.name;
 
 entity Invoices : cuid, managed {
   title       : String                   @title : '{i18n>Invoices.title}';

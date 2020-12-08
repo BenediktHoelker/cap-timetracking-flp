@@ -1,6 +1,6 @@
 using {TimetrackingService as my} from '../../../srv/timetracking-service';
 
-// annotate my.Employees with @odata.draft.enabled;
+annotate my.Employees with @odata.draft.enabled;
 annotate my.Employees with @(UI : {
     Facets              : [
     {
