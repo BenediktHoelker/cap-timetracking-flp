@@ -7,6 +7,10 @@ service TimetrackingService {
     to    : 'admin'
   },
   {
+    grant : ['WRITE'],
+    to    : 'authenticated-user'
+  },
+  {
     grant : ['READ'],
     where : 'username = $user'
   },
