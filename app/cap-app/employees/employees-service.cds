@@ -39,7 +39,7 @@ annotate my.Employees with @(UI : {
                 $value                 : manager.name,
                 ![@UI.TextArrangement] : #TextOnly
             },
-            FieldControl : #Mandatory
+            // FieldControl : #Mandatory
         },
         ValueList : {entity : 'Employees'}
     );

@@ -53,7 +53,7 @@ service TimetrackingService {
           billingFactor,
           count(
             records.ID
-          ) as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer,
+          ) as recordsCount @(title : '{i18n>Projects.recordsCount}') : Integer64,
           sum(
             records.time
           ) as totalTime    @(title : '{i18n>Projects.totalTime}')    : Decimal(13, 2),
@@ -110,7 +110,7 @@ service TimetrackingService {
       ) as billingTime  @(title : '{i18n>Employees.billingTime}')  : Double,
       count(
         records.ID
-      ) as recordsCount @(title : '{i18n>Employees.recordsCount}') : Integer,
+      ) as recordsCount @(title : '{i18n>Employees.recordsCount}') : Integer64,
       round(
         sum(
           (
@@ -150,7 +150,7 @@ service TimetrackingService {
       projects,
       count(
         projects.ID
-      ) as projectsCount @(title : '{i18n>Customers.projectsCount}') : Integer,
+      ) as projectsCount @(title : '{i18n>Customers.projectsCount}') : Integer64,
       invoices                                                       : redirected to Invoices
     }
     group by

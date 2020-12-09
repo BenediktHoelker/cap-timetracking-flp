@@ -29,7 +29,7 @@
     "@sap/cds": "^4.4.6",
     "@sap/xsenv": "^3.1.0",
     "@sap/xssec": "^3.0.10",
-    "cds-dbm": "0.0.19",
+    "cds-dbm": "0.0.20",
     "cds-pg": "0.0.39",
     "concurrently": "^5.3.0",
     "passport": "^0.4.1",

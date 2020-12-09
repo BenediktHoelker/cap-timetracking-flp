@@ -3,6 +3,8 @@ module.exports = (srv) => {
   srv.before(["CREATE", "UPDATE"], "Projects", (req) => {
     const members = req.data.members;
 
+    if (!members) return;
+
     let seen = new Set();
     // https://stackoverflow.com/questions/30735465/how-can-i-check-if-the-array-of-objects-have-duplicate-property-values
     const hasDuplicateMembers = members.some(

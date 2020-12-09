@@ -44,16 +44,16 @@ entity Projects : cuid, managed {
 }
 
 entity Employees : cuid, managed {
-  username      : String  @mandatory  @title : '{i18n>Employees.username}';
-  name          : String  @mandatory  @title : '{i18n>Employees.name}';
+  username      : String            @mandatory  @title : '{i18n>Employees.username}';
+  name          : String            @mandatory  @title : '{i18n>Employees.name}';
   projectsCount : Integer default 0 @title :             '{i18n>Employees.projectsCount}';
   recordsCount  : Integer default 0 @title :             '{i18n>Employees.recordsCount}';
-  daysOfTravel  : Integer @title :             '{i18n>Employees.daysOfTravel}';
-  daysOfLeave   : Integer @title :             '{i18n>Employees.daysOfLeave}';
-  billingTime   : Integer @title :             '{i18n>Employees.billingTime}';
-  bonus         : Integer @title :             '{i18n>Employees.bonus}';
+  daysOfTravel  : Integer           @title :             '{i18n>Employees.daysOfTravel}';
+  daysOfLeave   : Integer           @title :             '{i18n>Employees.daysOfLeave}';
+  billingTime   : Integer           @title :             '{i18n>Employees.billingTime}';
+  bonus         : Integer           @title :             '{i18n>Employees.bonus}';
   manager       : Association to Employees;
-  @title :                                     '{i18n>Employees.manager}'
+  @title :                                               '{i18n>Employees.manager}'
   travels       : Association to many Travels
                     on travels.employee = $self;
   // travelAggr    : Association to one TravelAggregations
